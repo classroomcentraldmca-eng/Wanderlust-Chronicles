@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wanderlust Chronicles — Explore the World's Most Breathtaking Destinations</title>
+
+<!-- ═══════════════════════════════════════════════════
+     SEO META TAGS — Required for Google AdSense Approval
+════════════════════════════════════════════════════ -->
+<meta name="title" content="Wanderlust Chronicles — Explore the World's Most Breathtaking Destinations">
+<meta name="description" content="Wanderlust Chronicles is your premier travel guide to the world's most breathtaking destinations. Expert tips, detailed itineraries, and inspiring stories from 120+ countries.">
+<meta name="keywords" content="travel blog, travel guide, world travel, best places to visit, international travel, travel tips, travel itinerary, adventure travel, luxury travel, budget travel, backpacking">
+<meta name="author" content="Wanderlust Chronicles">
+<meta name="robots" content="index, follow">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#0b1929">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.wanderlustchronicles.com/">
+<meta property="og:title" content="Wanderlust Chronicles — Explore the World">
+<meta property="og:description" content="Your premier travel guide to the world's most breathtaking destinations — stories, guides, and inspiration from 120+ countries.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&auto=format&fit=crop&q=80">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Wanderlust Chronicles">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@wanderlustchron">
+<meta name="twitter:title" content="Wanderlust Chronicles — Explore the World">
+<meta name="twitter:description" content="Your premier travel guide to the world's most breathtaking destinations.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&auto=format&fit=crop&q=80">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://www.wanderlustchronicles.com/">
+
+<!-- Schema.org: Website -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Wanderlust Chronicles","url":"https://www.wanderlustchronicles.com","description":"A travel blog exploring the world's most breathtaking destinations","potentialAction":{"@type":"SearchAction","target":"https://www.wanderlustchronicles.com/search?q={search_term_string}","query-input":"required name=search_term_string"}}
+</script>
+
+<!-- Schema.org: Blog -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Blog","name":"Wanderlust Chronicles","url":"https://www.wanderlustchronicles.com","description":"Expert travel guides, destination reviews, and travel tips from professional travelers","publisher":{"@type":"Organization","name":"Wanderlust Chronicles","logo":{"@type":"ImageObject","url":"https://www.wanderlustchronicles.com/logo.png"}},"author":{"@type":"Person","name":"Alex Mercer"}}
+</script>
+
+<!-- Google Fonts — Cormorant Garamond + Lato -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+<!-- Google AdSense — REPLACE ca-pub-XXXXXXXXXXXXXXXX with your Publisher ID -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+<!-- Favicon (Compass SVG) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' stroke='%23c9a853' stroke-width='3' fill='%230b1929'/><circle cx='50' cy='50' r='4' fill='%23c9a853'/><path d='M50 15 L45 50 L50 46 L55 50 Z' fill='%23c9a853'/><path d='M50 85 L55 50 L50 54 L45 50 Z' fill='%23ffffff'/></svg>">
+
+<style>
+/* ═══════════════════════════════════════
+   DESIGN TOKENS
+═══════════════════════════════════════ */
+:root {
+  --dark: #0b1929;
+  --dark-2: #112236;
+  --dark-3: #1a3050;
+  --cream: #faf7f2;
+  --cream-2: #f0ebe1;
+  --cream-3: #e2d9cc;
+  --gold: #c9a853;
+  --gold-2: #e8cc84;
+  --gold-dk: #9a7a3a;
+  --green: #2d6a4f;
+  --text: #1a1a2e;
+  --text-md: #4a4a5a;
+  --text-lt: #7a7a8a;
+  --white: #ffffff;
+  --shadow-sm: 0 2px 15px rgba(0,0,0,.08);
+  --shadow-md: 0 8px 40px rgba(0,0,0,.14);
+  --shadow-lg: 0 20px 60px rgba(0,0,0,.22);
+  --r: 12px;
+  --r-sm: 6px;
+  --font-d: 'Cormorant Garamond',Georgia,serif;
+  --font-b: 'Lato','Helvetica Neue',sans-serif;
+  --ease: all .3s cubic-bezier(.4,0,.2,1);
+  --ease-slow: all .6s cubic-bezier(.4,0,.2,1);
+}
+
+/* ═══════════════════════════════════════
+   RESET
+═══════════════════════════════════════ */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--font-b);background:var(--cream);color:var(--text);line-height:1.7;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{text-decoration:none;color:inherit}
+ul{list-style:none}
+.hidden{display:none!important}
+button{border:none;cursor:pointer;font-family:var(--font-b)}
+
+/* ═══════════════════════════════════════
+   TYPOGRAPHY
+═══════════════════════════════════════ */
+h1,h2,h3,h4,h5,h6{font-family:var(--font-d);font-weight:500;line-height:1.2}
+.lbl{font-family:var(--font-b);font-size:.72rem;font-weight:900;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.sec-title{font-family:var(--font-d);font-size:clamp(1.8rem,3.5vw,2.8rem);color:var(--dark);margin-top:.5rem}
+.sec-sub{font-size:1rem;color:var(--text-lt);margin-top:.85rem;max-width:560px;line-height:1.75}
+.sec-header{margin-bottom:2.5rem}
+.sec-header.center{text-align:center}
+.sec-header.center .sec-sub{margin:.85rem auto 0}
+
+/* ═══════════════════════════════════════
+   PROGRESS BAR
+═══════════════════════════════════════ */
+#progress{position:fixed;top:0;left:0;width:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--green));z-index:10000;transition:width .1s linear;pointer-events:none}
+
+/* ═══════════════════════════════════════
+   NAV
+═══════════════════════════════════════ */
+#nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.5rem 5%;display:flex;align-items:center;justify-content:space-between;transition:var(--ease-slow)}
+#nav.scrolled{background:rgba(11,25,41,.97);backdrop-filter:blur(20px);padding:1rem 5%;box-shadow:0 4px 30px rgba(0,0,0,.3)}
+.nav-logo{display:flex;align-items:center;gap:12px;cursor:pointer}
+.nav-logo-icon{width:40px;height:40px}
+.nav-logo-text{font-family:var(--font-d);font-size:1.5rem;font-weight:600;color:var(--white);letter-spacing:.02em}
+.nav-logo-text span{color:var(--gold)}
+.nav-links{display:flex;align-items:center;gap:2.5rem}
+.nav-links a{font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.8);transition:var(--ease);position:relative}
+.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--gold);transition:var(--ease)}
+.nav-links a:hover,.nav-links a.act{color:var(--gold)}
+.nav-links a:hover::after,.nav-links a.act::after{width:100%}
+.nav-cta{background:var(--gold)!important;color:var(--dark)!important;padding:.55rem 1.4rem;border-radius:4px;font-weight:900!important}
+.nav-cta::after{display:none!important}
+.nav-cta:hover{background:var(--gold-2)!important;transform:translateY(-2px)}
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:5px}
+.burger span{display:block;width:25px;height:2px;background:var(--white);transition:var(--ease);border-radius:2px}
+.burger.open span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.burger.open span:nth-child(2){opacity:0}
+.burger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.mob-menu{position:fixed;inset:0;background:var(--dark);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:2.5rem;display:none;opacity:0;transition:var(--ease)}
+.mob-menu.open{display:flex;opacity:1}
+.mob-menu a{font-family:var(--font-d);font-size:2.2rem;color:var(--white);font-weight:400;transition:var(--ease)}
+.mob-menu a:hover{color:var(--gold)}
+
+/* ═══════════════════════════════════════
+   HERO
+═══════════════════════════════════════ */
+.hero{position:relative;height:100vh;min-height:680px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&auto=format&fit=crop&q=80');background-size:cover;background-position:center;transform:scale(1.05);transition:transform 12s ease}
+.hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(11,25,41,.35) 0%,rgba(11,25,41,.18) 40%,rgba(11,25,41,.72) 100%)}
+.hero-c{position:relative;z-index:2;text-align:center;color:var(--white);padding:0 1rem;max-width:920px}
+.hero-eye{display:inline-flex;align-items:center;gap:14px;font-size:.7rem;font-weight:900;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem;opacity:0;animation:fadeUp 1s ease .3s forwards}
+.hero-eye::before,.hero-eye::after{content:'';display:block;width:40px;height:1px;background:var(--gold)}
+.hero-title{font-family:var(--font-d);font-size:clamp(3rem,8vw,6.5rem);font-weight:300;line-height:1.05;letter-spacing:-.02em;margin-bottom:1.5rem;opacity:0;animation:fadeUp 1s ease .6s forwards}
+.hero-title em{font-style:italic;color:var(--gold)}
+.hero-sub{font-size:1.05rem;font-weight:300;color:rgba(255,255,255,.82);max-width:480px;margin:0 auto 2.5rem;line-height:1.75;opacity:0;animation:fadeUp 1s ease .9s forwards}
+.hero-acts{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;opacity:0;animation:fadeUp 1s ease 1.2s forwards}
+.btn-p{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--dark);padding:.95rem 2rem;border-radius:4px;font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;transition:var(--ease)}
+.btn-p:hover{background:var(--gold-2);transform:translateY(-3px);box-shadow:0 10px 30px rgba(201,168,83,.4)}
+.btn-o{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--white);padding:.95rem 2rem;border-radius:4px;border:1px solid rgba(255,255,255,.4);font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;transition:var(--ease)}
+.btn-o:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.8);transform:translateY(-3px)}
+.hero-scroll{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;color:rgba(255,255,255,.55);font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;animation:fadeIn 2s ease 2s both}
+.hero-scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,rgba(255,255,255,.6),transparent);animation:scrollLine 2s ease-in-out infinite}
+
+/* ═══════════════════════════════════════
+   STATS BAR
+═══════════════════════════════════════ */
+.stats-bar{background:var(--dark);padding:1.5rem 5%;display:flex;justify-content:center;gap:4rem;flex-wrap:wrap}
+.stat-num{font-family:var(--font-d);font-size:2rem;font-weight:600;color:var(--gold);display:block}
+.stat-lbl{font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.45)}
+
+/* ═══════════════════════════════════════
+   MARQUEE
+═══════════════════════════════════════ */
+.marquee-wrap{background:var(--dark-2);padding:1.2rem 0;overflow:hidden;border-top:1px solid rgba(201,168,83,.18);border-bottom:1px solid rgba(201,168,83,.18)}
+.marquee-track{display:flex;animation:marquee 35s linear infinite;width:max-content}
+.mq-item{display:inline-flex;align-items:center;gap:1.2rem;padding:0 2rem;color:rgba(255,255,255,.45);font-size:.72rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
+.mq-dot{color:var(--gold);font-size:.4rem}
+
+/* ═══════════════════════════════════════
+   SECTION
+═══════════════════════════════════════ */
+.sec{padding:5.5rem 5%}
+
+/* ═══════════════════════════════════════
+   DESTINATION CARDS (Homepage grid)
+═══════════════════════════════════════ */
+.dests-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.dc{position:relative;border-radius:var(--r);overflow:hidden;cursor:pointer;background:var(--dark);box-shadow:var(--shadow-md);transition:var(--ease);aspect-ratio:3/4}
+.dc:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg)}
+.dc:hover .dc-img{transform:scale(1.08)}
+.dc:hover .dc-body{transform:translateY(0)}
+.dc.feat{grid-column:span 2;aspect-ratio:auto;height:420px}
+.dc-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .65s cubic-bezier(.4,0,.2,1)}
+.dc-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(11,25,41,.95) 0%,rgba(11,25,41,.35) 55%,transparent 100%);opacity:.75;transition:var(--ease)}
+.dc:hover .dc-ov{opacity:1}
+.dc-badge{position:absolute;top:1rem;right:1rem;background:rgba(201,168,83,.9);backdrop-filter:blur(10px);color:var(--dark);padding:.22rem .7rem;border-radius:20px;font-size:.65rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.dc-cnt{position:absolute;bottom:0;left:0;right:0;padding:1.5rem;color:var(--white)}
+.dc-flag{font-size:1.6rem;margin-bottom:.4rem;display:block}
+.dc-name{font-family:var(--font-d);font-size:1.9rem;font-weight:500;display:block;margin-bottom:.2rem}
+.dc-tag{font-size:.78rem;color:rgba(255,255,255,.65);letter-spacing:.05em}
+.dc-body{margin-top:.9rem;transform:translateY(12px);transition:var(--ease)}
+.dc-stars{color:var(--gold);font-size:.9rem}
+.dc-rating-txt{font-size:.78rem;color:rgba(255,255,255,.55);margin-left:6px}
+.dc-btn{display:inline-flex;align-items:center;gap:6px;color:var(--gold);font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-top:.75rem;transition:var(--ease)}
+.dc-btn:hover{gap:12px}
+
+/* ═══════════════════════════════════════
+   BLOG CARDS
+═══════════════════════════════════════ */
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.bc{background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-sm);transition:var(--ease);cursor:pointer}
+.bc:hover{transform:translateY(-6px);box-shadow:var(--shadow-md)}
+.bc:hover .bc-img{transform:scale(1.06)}
+.bc-imgw{aspect-ratio:16/9;overflow:hidden}
+.bc-img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.bc-body{padding:1.4rem}
+.bc-cat{display:inline-block;background:var(--gold);color:var(--dark);padding:.18rem .7rem;border-radius:20px;font-size:.65rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem}
+.bc-title{font-family:var(--font-d);font-size:1.25rem;font-weight:500;color:var(--dark);margin-bottom:.65rem;line-height:1.35}
+.bc-exc{font-size:.88rem;color:var(--text-lt);line-height:1.65;margin-bottom:1.1rem}
+.bc-meta{display:flex;align-items:center;justify-content:space-between;font-size:.75rem;color:var(--text-lt);padding-top:.9rem;border-top:1px solid var(--cream-2)}
+.bc-auth{display:flex;align-items:center;gap:8px}
+.bc-av{width:28px;height:28px;border-radius:50%;object-fit:cover}
+
+/* ═══════════════════════════════════════
+   AD UNITS
+═══════════════════════════════════════ */
+.ad-wrap{padding:0 5%;margin:1.5rem 0}
+.ad-unit{background:var(--cream-2);border:1px dashed var(--cream-3);border-radius:var(--r);min-height:90px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ad-unit.rect{min-height:250px}
+
+/* ═══════════════════════════════════════
+   QUOTE BLOCK
+═══════════════════════════════════════ */
+.quote-band{background:var(--dark-2);padding:5rem 5%;text-align:center;border-top:1px solid rgba(201,168,83,.15);border-bottom:1px solid rgba(201,168,83,.15)}
+.quote-band blockquote{font-family:var(--font-d);font-size:clamp(1.5rem,3vw,2.4rem);font-weight:300;font-style:italic;max-width:780px;margin:0 auto;color:rgba(255,255,255,.9);line-height:1.5}
+.quote-band cite{display:block;margin-top:1.4rem;font-family:var(--font-b);font-style:normal;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+
+/* ═══════════════════════════════════════
+   NEWSLETTER
+═══════════════════════════════════════ */
+.nl-sec{background:var(--dark);padding:5.5rem 5%;text-align:center;position:relative;overflow:hidden}
+.nl-sec::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(ellipse at center,rgba(201,168,83,.07) 0%,transparent 70%)}
+.nl-sec .sec-title{color:var(--white)}
+.nl-sec .sec-sub{color:rgba(255,255,255,.55);max-width:480px;margin:.85rem auto 2.5rem}
+.nl-form{display:flex;max-width:460px;margin:0 auto;border-radius:6px;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+.nl-input{flex:1;padding:1rem 1.4rem;border:none;background:rgba(255,255,255,.1);backdrop-filter:blur(10px);color:var(--white);font-size:.92rem;outline:none}
+.nl-input::placeholder{color:rgba(255,255,255,.38)}
+.nl-btn{background:var(--gold);color:var(--dark);border:none;padding:1rem 1.6rem;font-size:.78rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:var(--ease);white-space:nowrap}
+.nl-btn:hover{background:var(--gold-2)}
+.nl-disc{margin-top:1rem;font-size:.75rem;color:rgba(255,255,255,.3)}
+.nl-disc a{color:rgba(201,168,83,.65)}
+
+/* ═══════════════════════════════════════
+   PAGE HERO (inner pages)
+═══════════════════════════════════════ */
+.ph{position:relative;height:58vh;min-height:380px;display:flex;align-items:flex-end;overflow:hidden}
+.ph-bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.ph-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(11,25,41,.9) 0%,rgba(11,25,41,.28) 60%,transparent 100%)}
+.ph-cnt{position:relative;z-index:2;padding:3rem 5%;color:var(--white)}
+.breadcrumb{display:flex;align-items:center;gap:8px;font-size:.78rem;color:rgba(255,255,255,.55);margin-bottom:.85rem}
+.breadcrumb span{cursor:pointer;transition:var(--ease)}
+.breadcrumb span:hover{color:var(--gold)}
+.breadcrumb-sep{color:rgba(255,255,255,.25)}
+.ph-title{font-family:var(--font-d);font-size:clamp(2.4rem,6vw,4.5rem);font-weight:400;line-height:1.1}
+.ph-sub{font-size:.95rem;color:rgba(255,255,255,.65);margin-top:.6rem}
+
+/* ═══════════════════════════════════════
+   ALL DESTINATIONS PAGE
+═══════════════════════════════════════ */
+.dg-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.dgc{border-radius:var(--r);overflow:hidden;cursor:pointer;position:relative;aspect-ratio:3/4;box-shadow:var(--shadow-sm);transition:var(--ease)}
+.dgc:hover{transform:translateY(-6px);box-shadow:var(--shadow-md)}
+.dgc:hover .dgc-img{transform:scale(1.07)}
+.dgc-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .55s ease}
+.dgc-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(11,25,41,.88) 0%,transparent 60%)}
+.dgc-badge{position:absolute;top:.85rem;right:.85rem;background:rgba(201,168,83,.9);backdrop-filter:blur(10px);color:var(--dark);padding:.18rem .6rem;border-radius:20px;font-size:.62rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.dgc-info{position:absolute;bottom:0;left:0;right:0;padding:1.1rem}
+.dgc-flag{font-size:1.3rem;display:block;margin-bottom:.25rem}
+.dgc-name{font-family:var(--font-d);font-size:1.4rem;font-weight:500;color:var(--white);display:block}
+.dgc-region{font-size:.72rem;color:rgba(255,255,255,.6);letter-spacing:.06em}
+
+/* ═══════════════════════════════════════
+   FILTER BAR
+═══════════════════════════════════════ */
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:2.2rem}
+.fbtn{padding:.48rem 1.2rem;border-radius:30px;border:1.5px solid var(--cream-3);background:var(--white);font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-md);cursor:pointer;transition:var(--ease)}
+.fbtn.act,.fbtn:hover{background:var(--dark);color:var(--white);border-color:var(--dark)}
+
+/* ═══════════════════════════════════════
+   DESTINATION DETAIL
+═══════════════════════════════════════ */
+.dd-body{display:grid;grid-template-columns:1fr 310px;gap:3rem;padding:4rem 5%;max-width:1200px;margin:0 auto}
+.dd-main h2{font-family:var(--font-d);font-size:1.85rem;font-weight:500;color:var(--dark);margin:2rem 0 .75rem}
+.dd-main p{font-size:1.02rem;line-height:1.88;color:var(--text-md);margin-bottom:1.2rem}
+.dd-intro{font-size:1.15rem!important;font-weight:300;line-height:1.85!important;color:var(--dark)!important;border-left:3px solid var(--gold);padding-left:1.4rem;margin-bottom:2rem!important}
+.dd-div{width:55px;height:2px;background:var(--gold);margin:2.2rem 0}
+.dd-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:1.5rem}
+.dd-gi{aspect-ratio:1;border-radius:var(--r-sm);overflow:hidden;cursor:pointer}
+.dd-gi img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.dd-gi:hover img{transform:scale(1.08)}
+/* Sidebar */
+.dd-sidebar{position:sticky;top:95px;height:fit-content}
+.sb-card{background:var(--white);border-radius:var(--r);padding:1.6rem;box-shadow:var(--shadow-sm);margin-bottom:1.4rem}
+.sb-card h3{font-family:var(--font-d);font-size:1.2rem;font-weight:500;color:var(--dark);margin-bottom:1.1rem;padding-bottom:.7rem;border-bottom:1px solid var(--cream-2)}
+.info-row{display:flex;align-items:flex-start;gap:12px;padding:.65rem 0;border-bottom:1px solid var(--cream-2);font-size:.88rem}
+.info-row:last-child{border-bottom:none}
+.info-icon{font-size:1rem;width:22px;flex-shrink:0}
+.info-lbl{font-weight:700;color:var(--dark);display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em}
+.info-val{color:var(--text-md)}
+.tips-list li{display:flex;gap:10px;align-items:flex-start;padding:.55rem 0;border-bottom:1px solid var(--cream-2);font-size:.88rem;color:var(--text-md);line-height:1.55}
+.tips-list li:last-child{border-bottom:none}
+.tips-list li::before{content:'✦';color:var(--gold);font-size:.65rem;flex-shrink:0;margin-top:5px}
+.hl-wrap{display:flex;flex-wrap:wrap;gap:7px}
+.hl-tag{background:var(--cream);color:var(--dark-3);padding:.3rem .8rem;border-radius:20px;font-size:.75rem;font-weight:700;border:1px solid var(--cream-3)}
+
+/* ═══════════════════════════════════════
+   BLOG POST DETAIL
+═══════════════════════════════════════ */
+.post-body{display:grid;grid-template-columns:1fr 290px;gap:3rem;padding:4rem 5%;max-width:1100px;margin:0 auto}
+.post-cnt h2{font-family:var(--font-d);font-size:1.7rem;color:var(--dark);margin:2rem 0 .7rem}
+.post-cnt h3{font-family:var(--font-d);font-size:1.35rem;color:var(--dark);margin:1.5rem 0 .5rem}
+.post-cnt p{font-size:1.02rem;line-height:1.88;color:var(--text-md);margin-bottom:1.2rem}
+.post-cnt blockquote{border-left:3px solid var(--gold);padding:1rem 1.4rem;margin:2rem 0;background:var(--cream-2);border-radius:0 var(--r-sm) var(--r-sm) 0;font-family:var(--font-d);font-size:1.2rem;font-style:italic;color:var(--dark)}
+.post-cnt ul{list-style:none;margin:1rem 0 1.5rem}
+.post-cnt ul li{padding:.4rem 0 .4rem 1.6rem;position:relative;font-size:1rem;color:var(--text-md);line-height:1.7}
+.post-cnt ul li::before{content:'→';position:absolute;left:0;color:var(--gold);font-weight:bold}
+.post-meta-bar{display:flex;align-items:center;gap:1.4rem;padding:1.1rem 0;border-top:1px solid var(--cream-3);border-bottom:1px solid var(--cream-3);margin-bottom:2rem;font-size:.82rem;color:var(--text-lt);flex-wrap:wrap}
+.tag-list{display:flex;flex-wrap:wrap;gap:7px;margin:1.5rem 0}
+.tag{background:var(--cream-2);color:var(--dark);padding:.28rem .8rem;border-radius:20px;font-size:.75rem;font-weight:700;border:1px solid var(--cream-3);cursor:pointer;transition:var(--ease)}
+.tag:hover{background:var(--gold);border-color:var(--gold)}
+
+/* ═══════════════════════════════════════
+   ABOUT PAGE
+═══════════════════════════════════════ */
+.about-split{display:grid;grid-template-columns:1fr 1fr;min-height:88vh}
+.about-img{overflow:hidden}
+.about-img img{width:100%;height:100%;object-fit:cover}
+.about-txt{background:var(--dark);color:var(--white);padding:7rem 5rem;display:flex;flex-direction:column;justify-content:center}
+.about-txt .sec-title{color:var(--white)}
+.about-txt p{color:rgba(255,255,255,.68);font-size:1rem;line-height:1.82;margin-top:1.25rem}
+.vals-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+.val-item{text-align:center;padding:2rem 1.5rem}
+.val-icon{font-size:2.5rem;margin-bottom:1rem}
+.val-title{font-family:var(--font-d);font-size:1.35rem;color:var(--dark);margin-bottom:.65rem}
+.val-desc{font-size:.9rem;color:var(--text-lt);line-height:1.65}
+.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+.team-card{text-align:center}
+.team-av{width:120px;height:120px;border-radius:50%;object-fit:cover;margin:0 auto 1rem;border:4px solid var(--gold)}
+.team-name{font-family:var(--font-d);font-size:1.3rem;color:var(--dark)}
+.team-role{font-size:.72rem;color:var(--gold);font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin:.25rem 0 .7rem}
+.team-bio{font-size:.88rem;color:var(--text-lt);line-height:1.65}
+
+/* ═══════════════════════════════════════
+   CONTACT PAGE
+═══════════════════════════════════════ */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;padding:5.5rem 5%;max-width:1100px;margin:0 auto}
+.contact-info h2{font-family:var(--font-d);font-size:2.3rem;font-weight:500;color:var(--dark)}
+.contact-info > p{color:var(--text-lt);margin-top:.9rem;line-height:1.72}
+.cd{display:flex;align-items:flex-start;gap:16px;margin-top:1.8rem}
+.cd-icon{width:46px;height:46px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0}
+.cd-txt strong{display:block;color:var(--dark);font-weight:700;margin-bottom:2px;font-size:.88rem}
+.cd-txt span{color:var(--text-lt);font-size:.88rem}
+.form-group{margin-bottom:1.2rem}
+.form-label{display:block;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--dark);margin-bottom:.45rem}
+.form-ctrl{width:100%;padding:.82rem 1rem;border:1.5px solid var(--cream-3);border-radius:var(--r-sm);font-family:var(--font-b);font-size:.92rem;color:var(--text);background:var(--white);transition:var(--ease);outline:none}
+.form-ctrl:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,168,83,.14)}
+textarea.form-ctrl{resize:vertical;min-height:110px}
+
+/* ═══════════════════════════════════════
+   PRIVACY POLICY
+═══════════════════════════════════════ */
+.priv-wrap{max-width:780px;margin:0 auto;padding:5.5rem 5%}
+.priv-wrap h1{font-family:var(--font-d);font-size:2.4rem;color:var(--dark)}
+.priv-date{color:var(--text-lt);font-size:.88rem;margin-bottom:2.2rem;padding-bottom:1.4rem;border-bottom:1px solid var(--cream-3)}
+.priv-wrap h2{font-family:var(--font-d);font-size:1.5rem;font-weight:500;color:var(--dark);margin:2.2rem 0 .9rem}
+.priv-wrap p{color:var(--text-md);font-size:.95rem;line-height:1.82;margin-bottom:.95rem}
+.priv-wrap ul{list-style:disc;padding-left:1.4rem;color:var(--text-md);font-size:.95rem;line-height:1.82;margin:.85rem 0}
+.priv-wrap ul li{margin-bottom:.4rem}
+.priv-wrap a{color:var(--gold-dk);text-decoration:underline}
+.toc-box{background:var(--cream-2);border-radius:var(--r);padding:1.4rem 1.8rem;margin:1.8rem 0}
+.toc-box h3{font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--dark);margin-bottom:.85rem}
+.toc-box ol{padding-left:1.2rem}
+.toc-box li{margin-bottom:.35rem;font-size:.88rem}
+.toc-box a{color:var(--gold-dk);text-decoration:none}
+.disc-box{margin-top:2rem;padding:1.4rem;background:var(--cream-2);border-radius:var(--r);font-size:.88rem;color:var(--text-md)}
+
+/* ═══════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════ */
+footer{background:var(--dark);color:rgba(255,255,255,.6);padding:5rem 5% 2rem}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem}
+.foot-desc{font-size:.88rem;line-height:1.72;margin-top:.9rem;color:rgba(255,255,255,.45)}
+.foot-soc{display:flex;gap:10px;margin-top:1.4rem}
+.soc-btn{width:36px;height:36px;border-radius:50%;border:1px solid rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:.85rem;transition:var(--ease);cursor:pointer}
+.soc-btn:hover{background:var(--gold);border-color:var(--gold);color:var(--dark)}
+.foot-col h4{font-size:.68rem;font-weight:900;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.1rem}
+.foot-links{display:flex;flex-direction:column;gap:.55rem}
+.foot-links a{font-size:.88rem;color:rgba(255,255,255,.48);transition:var(--ease);cursor:pointer}
+.foot-links a:hover{color:var(--gold);padding-left:4px}
+.foot-bot{display:flex;align-items:center;justify-content:space-between;padding-top:1.8rem;border-top:1px solid rgba(255,255,255,.1);flex-wrap:wrap;gap:1rem}
+.foot-bot-links{display:flex;gap:1.4rem}
+.foot-bot-links a{font-size:.78rem;color:rgba(255,255,255,.35);transition:var(--ease);cursor:pointer}
+.foot-bot-links a:hover{color:var(--gold)}
+.foot-copy{font-size:.78rem;color:rgba(255,255,255,.3)}
+
+/* ═══════════════════════════════════════
+   BACK TO TOP
+═══════════════════════════════════════ */
+#btt{position:fixed;bottom:2rem;right:2rem;width:46px;height:46px;background:var(--gold);color:var(--dark);border:none;border-radius:50%;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-md);transition:var(--ease);opacity:0;transform:translateY(10px);z-index:500}
+#btt.show{opacity:1;transform:translateY(0)}
+#btt:hover{background:var(--gold-2);transform:translateY(-3px)}
+
+/* ═══════════════════════════════════════
+   COOKIE BANNER
+═══════════════════════════════════════ */
+#cookie{position:fixed;bottom:0;left:0;right:0;background:var(--dark);color:rgba(255,255,255,.82);padding:1.2rem 5%;display:flex;align-items:center;justify-content:space-between;gap:2rem;z-index:2000;flex-wrap:wrap;border-top:1px solid rgba(201,168,83,.28);transform:translateY(100%);transition:transform .5s ease}
+#cookie.show{transform:translateY(0)}
+#cookie p{font-size:.85rem;line-height:1.55;flex:1}
+#cookie a{color:var(--gold);text-decoration:underline}
+.cookie-acts{display:flex;gap:.7rem}
+.ck-ok{background:var(--gold);color:var(--dark);border:none;padding:.55rem 1.4rem;border-radius:4px;font-size:.78rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:var(--ease)}
+.ck-ok:hover{background:var(--gold-2)}
+.ck-no{background:transparent;color:rgba(255,255,255,.45);border:1px solid rgba(255,255,255,.18);padding:.55rem 1.1rem;border-radius:4px;font-size:.78rem;cursor:pointer;transition:var(--ease)}
+.ck-no:hover{border-color:rgba(255,255,255,.38);color:rgba(255,255,255,.75)}
+
+/* ═══════════════════════════════════════
+   LIGHTBOX
+═══════════════════════════════════════ */
+#lightbox{position:fixed;inset:0;background:rgba(0,0,0,.95);z-index:9999;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .3s ease}
+#lightbox.open{opacity:1;pointer-events:all}
+#lightbox img{max-width:88vw;max-height:84vh;object-fit:contain;border-radius:var(--r-sm)}
+#lb-close{position:absolute;top:1.5rem;right:1.5rem;background:none;border:none;color:rgba(255,255,255,.7);font-size:1.6rem;cursor:pointer;transition:var(--ease)}
+#lb-close:hover{color:var(--white)}
+
+/* ═══════════════════════════════════════
+   LOAD MORE
+═══════════════════════════════════════ */
+.load-more{display:block;margin:3rem auto 0;background:transparent;color:var(--dark);border:2px solid var(--dark);padding:.85rem 2.4rem;border-radius:4px;font-size:.8rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;transition:var(--ease)}
+.load-more:hover{background:var(--dark);color:var(--white)}
+
+/* ═══════════════════════════════════════
+   REVEAL ANIMATION
+═══════════════════════════════════════ */
+.reveal{opacity:0;transform:translateY(38px);transition:opacity .7s ease,transform .7s ease}
+.reveal.vis{opacity:1;transform:translateY(0)}
+.reveal.d1{transition-delay:.1s}.reveal.d2{transition-delay:.2s}.reveal.d3{transition-delay:.3s}.reveal.d4{transition-delay:.4s}
+
+/* ═══════════════════════════════════════
+   KEYFRAMES
+═══════════════════════════════════════ */
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes scrollLine{0%,100%{opacity:1;transform:scaleY(1)}50%{opacity:.3;transform:scaleY(.5)}}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════ */
+@media(max-width:1100px){
+  .dests-grid{grid-template-columns:repeat(2,1fr)}
+  .dc.feat{grid-column:span 2}
+  .blog-grid{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:2rem}
+  .dg-grid{grid-template-columns:repeat(3,1fr)}
+  .dd-body{grid-template-columns:1fr}
+  .dd-sidebar{position:static}
+  .about-split{grid-template-columns:1fr}
+  .about-img{height:420px}
+  .about-txt{padding:4rem 2.5rem}
+  .contact-grid{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  .nav-links{display:none}
+  .burger{display:flex}
+  .dests-grid{grid-template-columns:1fr}
+  .dc.feat{grid-column:span 1;height:360px}
+  .blog-grid{grid-template-columns:1fr}
+  .stats-bar{gap:2rem}
+  .foot-grid{grid-template-columns:1fr}
+  .dg-grid{grid-template-columns:repeat(2,1fr)}
+  .team-grid{grid-template-columns:1fr}
+  .vals-grid{grid-template-columns:1fr}
+  .post-body{grid-template-columns:1fr}
+  .sec{padding:4rem 5%}
+  .nl-form{flex-direction:column;border-radius:var(--r);overflow:visible}
+  .nl-input{border-radius:var(--r-sm)}
+  .nl-btn{border-radius:var(--r-sm);padding:.85rem}
+  .foot-bot{flex-direction:column;text-align:center}
+}
+@media(max-width:480px){
+  .dg-grid{grid-template-columns:1fr}
+  .dd-gallery{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+
+<!-- Google Analytics 4 — Replace G-XXXXXXXXXX with your Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-XXXXXXXXXX');
+</script>
+
+<!-- Reading Progress -->
+<div id="progress"></div>
+
+<!-- ═══════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════ -->
+<nav id="nav">
+  <div class="nav-logo" onclick="showPage('home')">
+    <svg class="nav-logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="50" cy="50" r="45" stroke="#c9a853" stroke-width="2.5"/>
+      <circle cx="50" cy="50" r="33" stroke="rgba(201,168,83,.25)" stroke-width="1"/>
+      <circle cx="50" cy="50" r="4.5" fill="#c9a853"/>
+      <path d="M50 14 L44.5 50 L50 45 L55.5 50 Z" fill="#c9a853"/>
+      <path d="M50 86 L55.5 50 L50 55 L44.5 50 Z" fill="rgba(255,255,255,.45)"/>
+      <circle cx="86" cy="50" r="2.5" fill="rgba(201,168,83,.55)"/>
+      <circle cx="14" cy="50" r="2.5" fill="rgba(201,168,83,.55)"/>
+      <text x="50" y="9.5" text-anchor="middle" fill="#c9a853" font-size="8" font-family="Georgia,serif" font-weight="bold">N</text>
+      <text x="50" y="98" text-anchor="middle" fill="rgba(255,255,255,.45)" font-size="8" font-family="Georgia,serif">S</text>
+      <text x="96" y="53.5" text-anchor="middle" fill="rgba(201,168,83,.55)" font-size="7.5" font-family="Georgia,serif">E</text>
+      <text x="4" y="53.5" text-anchor="middle" fill="rgba(201,168,83,.55)" font-size="7.5" font-family="Georgia,serif">W</text>
+    </svg>
+    <span class="nav-logo-text">Wanderlust <span>Chronicles</span></span>
+  </div>
+  <div class="nav-links">
+    <a href="#" class="act" onclick="ev(event);showPage('home')">Home</a>
+    <a href="#" onclick="ev(event);showPage('destinations')">Destinations</a>
+    <a href="#" onclick="ev(event);showPage('blog')">Blog</a>
+    <a href="#" onclick="ev(event);showPage('about')">About</a>
+    <a href="#" onclick="ev(event);showPage('contact')">Contact</a>
+    <a href="#" class="nav-cta" onclick="ev(event);showPage('home');setTimeout(()=>document.getElementById('nl').scrollIntoView({behavior:'smooth'}),300)">Subscribe</a>
+  </div>
+  <div class="burger" id="burger" onclick="toggleMob()"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mob-menu" id="mobmenu">
+  <a href="#" onclick="ev(event);showPage('home');toggleMob()">Home</a>
+  <a href="#" onclick="ev(event);showPage('destinations');toggleMob()">Destinations</a>
+  <a href="#" onclick="ev(event);showPage('blog');toggleMob()">Blog</a>
+  <a href="#" onclick="ev(event);showPage('about');toggleMob()">About</a>
+  <a href="#" onclick="ev(event);showPage('contact');toggleMob()">Contact</a>
+  <a href="#" onclick="ev(event);showPage('privacy');toggleMob()">Privacy Policy</a>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: HOME
+═══════════════════════════════════════════════════════ -->
+<div id="p-home">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-c">
+      <div class="hero-eye">Discover the World</div>
+      <h1 class="hero-title">The World is<br>Yours to <em>Explore</em></h1>
+      <p class="hero-sub">Stories, guides &amp; discoveries from the most breathtaking destinations on earth. Your next great adventure starts here.</p>
+      <div class="hero-acts">
+        <button class="btn-p" onclick="showPage('destinations')">Explore Destinations ↗</button>
+        <button class="btn-o" onclick="showPage('blog')">Read Our Stories</button>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="hero-scroll-line"></div>Scroll</div>
+  </section>
+
+  <!-- Stats Bar -->
+  <div class="stats-bar">
+    <div><span class="stat-num" data-target="120">0</span><span class="stat-lbl">Countries Covered</span></div>
+    <div><span class="stat-num" data-target="850">0</span><span class="stat-lbl">Destinations</span></div>
+    <div><span class="stat-num" data-target="2400">0</span><span class="stat-lbl">Guides &amp; Articles</span></div>
+    <div><span class="stat-num" data-target="1200000">0</span><span class="stat-lbl">Monthly Readers</span></div>
+  </div>
+
+  <!-- Marquee Strip -->
+  <div class="marquee-wrap"><div class="marquee-track" id="mq"></div></div>
+
+  <!-- Featured Destinations -->
+  <section class="sec">
+    <div class="sec-header reveal">
+      <div class="lbl">Featured Destinations</div>
+      <h2 class="sec-title">Places That Will Change You</h2>
+      <p class="sec-sub">Handpicked destinations offering once-in-a-lifetime experiences for every kind of traveler.</p>
+    </div>
+    <div class="dests-grid" id="h-dests"></div>
+    <div style="text-align:center;margin-top:2.5rem"><button class="btn-p" onclick="showPage('destinations')">View All Destinations ↗</button></div>
+  </section>
+
+  <!-- AdSense Leaderboard -->
+  <div class="ad-wrap">
+    <div class="ad-unit">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="1111111111" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+    </div>
+  </div>
+
+  <!-- Quote Band -->
+  <div class="quote-band">
+    <blockquote>"Travel is the only thing you buy that makes you richer — and the only education that truly has no syllabus."</blockquote>
+    <cite>— The Wanderlust Philosophy</cite>
+  </div>
+
+  <!-- Latest Blog Posts -->
+  <section class="sec" style="background:var(--cream-2)">
+    <div class="sec-header center reveal">
+      <div class="lbl">From The Journal</div>
+      <h2 class="sec-title">Latest Travel Stories</h2>
+      <p class="sec-sub">In-depth guides, personal narratives, and insider tips from our writers on the ground.</p>
+    </div>
+    <div class="blog-grid" id="h-blog"></div>
+    <div style="text-align:center;margin-top:2.5rem"><button class="btn-p" onclick="showPage('blog')">Read All Stories ↗</button></div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="nl-sec" id="nl">
+    <div class="lbl">Stay Inspired</div>
+    <h2 class="sec-title" style="margin-top:.5rem">Never Miss an Adventure</h2>
+    <p class="sec-sub">Join over 1.2 million subscribers who receive our weekly travel guides, exclusive deals, and destination inspiration.</p>
+    <form class="nl-form" onsubmit="submitNL(event)">
+      <input type="email" class="nl-input" placeholder="Enter your email address" required aria-label="Email address">
+      <button type="submit" class="nl-btn">Subscribe Free</button>
+    </form>
+    <p class="nl-disc">✓ No spam, ever. Unsubscribe anytime. By subscribing you agree to our <a href="#" onclick="ev(event);showPage('privacy')">Privacy Policy</a>.</p>
+  </section>
+
+</div><!-- /p-home -->
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: ALL DESTINATIONS
+═══════════════════════════════════════════════════════ -->
+<div id="p-destinations" class="hidden" style="padding-top:75px">
+  <div class="ph">
+    <div class="ph-bg" style="background-image:url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920&auto=format&fit=crop&q=80')"></div>
+    <div class="ph-cnt">
+      <div class="breadcrumb"><span onclick="showPage('home')">Home</span><span class="breadcrumb-sep">›</span><span>Destinations</span></div>
+      <h1 class="ph-title">Explore the World</h1>
+      <p class="ph-sub">Discover 120+ countries and 850+ destinations, curated by our expert travel writers</p>
+    </div>
+  </div>
+  <section class="sec">
+    <div class="filter-bar">
+      <button class="fbtn act" onclick="filterDests('all',this)">All Regions</button>
+      <button class="fbtn" onclick="filterDests('europe',this)">Europe</button>
+      <button class="fbtn" onclick="filterDests('asia',this)">Asia</button>
+      <button class="fbtn" onclick="filterDests('americas',this)">Americas</button>
+      <button class="fbtn" onclick="filterDests('africa',this)">Africa</button>
+      <button class="fbtn" onclick="filterDests('oceania',this)">Oceania</button>
+    </div>
+    <div class="dg-grid" id="all-dests"></div>
+  </section>
+  <div class="ad-wrap" style="padding-bottom:3rem">
+    <div class="ad-unit">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="2222222222" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE: DESTINATION DETAIL -->
+<div id="p-destination" class="hidden" style="padding-top:75px"><div id="dd-content"></div></div>
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: BLOG
+═══════════════════════════════════════════════════════ -->
+<div id="p-blog" class="hidden" style="padding-top:75px">
+  <div class="ph">
+    <div class="ph-bg" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1920&auto=format&fit=crop&q=80')"></div>
+    <div class="ph-cnt">
+      <div class="breadcrumb"><span onclick="showPage('home')">Home</span><span class="breadcrumb-sep">›</span><span>Blog</span></div>
+      <h1 class="ph-title">Travel Stories</h1>
+      <p class="ph-sub">In-depth guides, personal narratives, and inspiration from around the world</p>
+    </div>
+  </div>
+  <section class="sec">
+    <div class="filter-bar">
+      <button class="fbtn act" onclick="filterPosts('all',this)">All Posts</button>
+      <button class="fbtn" onclick="filterPosts('guides',this)">Guides</button>
+      <button class="fbtn" onclick="filterPosts('food',this)">Food &amp; Culture</button>
+      <button class="fbtn" onclick="filterPosts('adventure',this)">Adventure</button>
+      <button class="fbtn" onclick="filterPosts('budget',this)">Budget Travel</button>
+      <button class="fbtn" onclick="filterPosts('luxury',this)">Luxury</button>
+    </div>
+    <div class="blog-grid" id="all-blog" style="grid-template-columns:repeat(2,1fr)"></div>
+    <button class="load-more" onclick="loadMore()">Load More Stories</button>
+  </section>
+  <div class="ad-wrap" style="padding-bottom:3rem">
+    <div class="ad-unit">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="3333333333" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE: BLOG POST DETAIL -->
+<div id="p-post" class="hidden" style="padding-top:75px"><div id="post-content"></div></div>
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: ABOUT
+═══════════════════════════════════════════════════════ -->
+<div id="p-about" class="hidden" style="padding-top:75px">
+  <div class="about-split">
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1000&auto=format&fit=crop&q=80" alt="Traveler with camera on a mountain peak" loading="lazy">
+    </div>
+    <div class="about-txt">
+      <div class="lbl">Our Story</div>
+      <h1 class="sec-title">We Are Wanderlust <em style="font-style:italic;color:var(--gold)">Chronicles</em></h1>
+      <p>Born from a suitcase and a camera, Wanderlust Chronicles began in 2018 as a personal travel journal. Today we are a team of passionate explorers, writers, and photographers committed to inspiring authentic travel experiences worldwide.</p>
+      <p>We believe travel changes us — it broadens perspective, fosters empathy, and reminds us of our shared humanity. Every article we publish is guided by that philosophy: honest, thorough, and designed to help you travel better.</p>
+      <div style="display:flex;gap:1rem;margin-top:2rem;flex-wrap:wrap">
+        <button class="btn-p" onclick="showPage('contact')">Get in Touch ↗</button>
+        <button class="btn-o" onclick="showPage('destinations')">Explore With Us</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Values -->
+  <section class="sec" style="background:var(--cream-2)">
+    <div class="sec-header center">
+      <div class="lbl">Our Values</div>
+      <h2 class="sec-title">How We Travel</h2>
+    </div>
+    <div class="vals-grid" style="margin-top:1rem">
+      <div class="val-item reveal">
+        <div class="val-icon">🌿</div>
+        <h3 class="val-title">Responsible Travel</h3>
+        <p class="val-desc">We promote ethical tourism that supports local communities, minimizes environmental impact, and preserves cultural heritage for future generations.</p>
+      </div>
+      <div class="val-item reveal d2">
+        <div class="val-icon">✍️</div>
+        <h3 class="val-title">Honest Reporting</h3>
+        <p class="val-desc">We tell it like it is — including the challenges, the mishaps, and the things brochures don't show. Authentic experiences, authentically shared.</p>
+      </div>
+      <div class="val-item reveal d3">
+        <div class="val-icon">🗺️</div>
+        <h3 class="val-title">Practical Guidance</h3>
+        <p class="val-desc">Beautiful photography is great, but we pair it with specific, actionable details: costs, logistics, timing, and the tips only locals know.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="sec">
+    <div class="sec-header center">
+      <div class="lbl">The Team</div>
+      <h2 class="sec-title">Meet Our Explorers</h2>
+      <p class="sec-sub">Our writers have collectively visited over 200 countries and logged millions of travel miles.</p>
+    </div>
+    <div class="team-grid" style="margin-top:1rem">
+      <div class="team-card reveal">
+        <img class="team-av" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80" alt="Alex Mercer">
+        <div class="team-name">Alex Mercer</div>
+        <div class="team-role">Founder &amp; Editor-in-Chief</div>
+        <p class="team-bio">A former travel photographer turned writer, Alex has explored 87 countries across six continents. Specializes in Southeast Asia, hidden gems, and adventure travel.</p>
+      </div>
+      <div class="team-card reveal d2">
+        <img class="team-av" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80" alt="Marcus Chen">
+        <div class="team-name">Marcus Chen</div>
+        <div class="team-role">Senior Travel Writer</div>
+        <p class="team-bio">Marcus is our food and culture specialist. He has eaten his way through 60+ countries and believes the best way to understand a culture is through its cuisine.</p>
+      </div>
+      <div class="team-card reveal d3">
+        <img class="team-av" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&auto=format&fit=crop&q=80" alt="Sofia Vasquez">
+        <div class="team-name">Sofia Vasquez</div>
+        <div class="team-role">Luxury &amp; Wellness Editor</div>
+        <p class="team-bio">A former luxury hotel consultant, Sofia brings insider knowledge to every hotel, spa, and fine dining experience she reviews. Her standards are exacting — and that's why you trust her.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-bar">
+    <div><span class="stat-num">87</span><span class="stat-lbl">Countries Visited</span></div>
+    <div><span class="stat-num">2018</span><span class="stat-lbl">Founded</span></div>
+    <div><span class="stat-num">2,400+</span><span class="stat-lbl">Articles Published</span></div>
+    <div><span class="stat-num">3</span><span class="stat-lbl">Award-Winning Writers</span></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: CONTACT
+═══════════════════════════════════════════════════════ -->
+<div id="p-contact" class="hidden" style="padding-top:75px">
+  <div class="ph">
+    <div class="ph-bg" style="background-image:url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920&auto=format&fit=crop&q=80')"></div>
+    <div class="ph-cnt">
+      <div class="breadcrumb"><span onclick="showPage('home')">Home</span><span class="breadcrumb-sep">›</span><span>Contact</span></div>
+      <h1 class="ph-title">Get In Touch</h1>
+      <p class="ph-sub">Partnerships, pitches, press enquiries, or just to say hello</p>
+    </div>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="lbl">Contact Us</div>
+      <h2>Let's Start a Conversation</h2>
+      <p>Whether you're a fellow traveler, a brand interested in partnerships, a writer looking to contribute, or just someone with a question about a destination — we're here.</p>
+      <div class="cd"><div class="cd-icon">📧</div><div class="cd-txt"><strong>General Enquiries</strong><span>hello@wanderlustchronicles.com</span></div></div>
+      <div class="cd"><div class="cd-icon">🤝</div><div class="cd-txt"><strong>Partnerships &amp; Press</strong><span>partnerships@wanderlustchronicles.com</span></div></div>
+      <div class="cd"><div class="cd-icon">✍️</div><div class="cd-txt"><strong>Contributor Pitches</strong><span>editorial@wanderlustchronicles.com</span></div></div>
+      <div class="cd"><div class="cd-icon">📍</div><div class="cd-txt"><strong>Based In</strong><span>Toronto, Canada — but usually somewhere else entirely</span></div></div>
+      <div style="margin-top:2.2rem">
+        <p style="font-size:.78rem;color:var(--text-lt);margin-bottom:.85rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase">Follow Our Journey</p>
+        <div style="display:flex;gap:.85rem;flex-wrap:wrap">
+          <a href="#" style="padding:.55rem 1.2rem;border:1.5px solid var(--cream-3);border-radius:4px;font-size:.82rem;font-weight:700;color:var(--dark);transition:var(--ease)" onmouseover="this.style.background='var(--dark)';this.style.color='var(--white)'" onmouseout="this.style.background='';this.style.color='var(--dark)'">📷 Instagram</a>
+          <a href="#" style="padding:.55rem 1.2rem;border:1.5px solid var(--cream-3);border-radius:4px;font-size:.82rem;font-weight:700;color:var(--dark);transition:var(--ease)" onmouseover="this.style.background='var(--dark)';this.style.color='var(--white)'" onmouseout="this.style.background='';this.style.color='var(--dark)'">📌 Pinterest</a>
+          <a href="#" style="padding:.55rem 1.2rem;border:1.5px solid var(--cream-3);border-radius:4px;font-size:.82rem;font-weight:700;color:var(--dark);transition:var(--ease)" onmouseover="this.style.background='var(--dark)';this.style.color='var(--white)'" onmouseout="this.style.background='';this.style.color='var(--dark)'">▶ YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div style="background:var(--white);padding:2.4rem;border-radius:var(--r);box-shadow:var(--shadow-sm)">
+        <h3 style="font-family:var(--font-d);font-size:1.55rem;color:var(--dark);margin-bottom:1.4rem">Send Us a Message</h3>
+        <form onsubmit="submitContact(event)">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+            <div class="form-group"><label class="form-label">First Name</label><input type="text" class="form-ctrl" placeholder="Jane" required></div>
+            <div class="form-group"><label class="form-label">Last Name</label><input type="text" class="form-ctrl" placeholder="Smith"></div>
+          </div>
+          <div class="form-group"><label class="form-label">Email Address</label><input type="email" class="form-ctrl" placeholder="jane@example.com" required></div>
+          <div class="form-group">
+            <label class="form-label">Subject</label>
+            <select class="form-ctrl">
+              <option value="">Select a topic...</option>
+              <option>General Inquiry</option>
+              <option>Partnership / Collaboration</option>
+              <option>Contributor Pitch</option>
+              <option>Press &amp; Media</option>
+              <option>Advertising</option>
+              <option>Technical Issue</option>
+            </select>
+          </div>
+          <div class="form-group"><label class="form-label">Message</label><textarea class="form-ctrl" placeholder="Tell us what's on your mind..." required></textarea></div>
+          <button type="submit" class="btn-p" style="width:100%;justify-content:center">Send Message ↗</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE: PRIVACY POLICY
+     (Required for Google AdSense approval)
+═══════════════════════════════════════════════════════ -->
+<div id="p-privacy" class="hidden" style="padding-top:75px;background:var(--cream)">
+  <div class="priv-wrap">
+    <h1>Privacy Policy</h1>
+    <p class="priv-date">Last Updated: June 1, 2025 &nbsp;|&nbsp; Effective Date: June 1, 2025</p>
+    <p>Welcome to <strong>Wanderlust Chronicles</strong> ("we," "our," or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at <strong>www.wanderlustchronicles.com</strong> (the "Site").</p>
+    <p>Please read this policy carefully. If you disagree with its terms, please discontinue use of our Site.</p>
+    <div class="toc-box">
+      <h3>Table of Contents</h3>
+      <ol>
+        <li><a href="#s1">Information We Collect</a></li>
+        <li><a href="#s2">How We Use Your Information</a></li>
+        <li><a href="#s3">Cookies and Tracking Technologies</a></li>
+        <li><a href="#s4">Google AdSense &amp; Advertising</a></li>
+        <li><a href="#s5">Google Analytics</a></li>
+        <li><a href="#s6">Third-Party Services</a></li>
+        <li><a href="#s7">Sharing Your Information</a></li>
+        <li><a href="#s8">Your Privacy Rights</a></li>
+        <li><a href="#s9">Children's Privacy</a></li>
+        <li><a href="#s10">Data Security</a></li>
+        <li><a href="#s11">Data Retention</a></li>
+        <li><a href="#s12">International Transfers</a></li>
+        <li><a href="#s13">Changes to This Policy</a></li>
+        <li><a href="#s14">Contact Us</a></li>
+      </ol>
+    </div>
+    <h2 id="s1">1. Information We Collect</h2>
+    <p><strong>a) Information You Provide Voluntarily</strong></p>
+    <ul><li>Name and email address when you subscribe to our newsletter</li><li>Name, email, and message content when you submit our contact form</li><li>Any information you voluntarily provide when commenting or entering contests</li></ul>
+    <p><strong>b) Information Collected Automatically</strong></p>
+    <ul><li>Log data: IP address, browser type, pages visited, time and date of visit, time spent on pages, and other diagnostic data</li><li>Device data: device type, operating system, unique device identifiers</li><li>Usage data: how you interact with our Site, which articles you read, and features you use</li><li>General geographic location based on IP address (not precise GPS location)</li></ul>
+    <p><strong>c) Information from Third Parties</strong></p>
+    <ul><li>Analytics data from Google Analytics</li><li>Advertising data from Google AdSense and its network partners</li><li>Social media interaction data if you use our sharing buttons</li></ul>
+
+    <h2 id="s2">2. How We Use Your Information</h2>
+    <ul><li>To deliver and maintain our website and its content</li><li>To send our newsletter (only with your explicit consent)</li><li>To respond to your comments, questions, and requests</li><li>To analyze usage patterns and improve our website</li><li>To serve personalized and contextual advertising through Google AdSense</li><li>To detect, prevent, and address technical issues and fraudulent activity</li><li>To comply with legal obligations</li></ul>
+
+    <h2 id="s3">3. Cookies and Tracking Technologies</h2>
+    <p>Our Site uses cookies and similar tracking technologies. Types of cookies we use:</p>
+    <ul>
+      <li><strong>Essential Cookies:</strong> Necessary for the website to function. They cannot be disabled.</li>
+      <li><strong>Analytics Cookies:</strong> Used by Google Analytics to understand how visitors use our Site.</li>
+      <li><strong>Advertising Cookies:</strong> Used by Google AdSense and partners to serve relevant advertisements.</li>
+      <li><strong>Preference Cookies:</strong> Remember your settings and preferences.</li>
+      <li><strong>Social Media Cookies:</strong> Set when you interact with embedded social content or sharing buttons.</li>
+    </ul>
+    <p>You may opt out of interest-based advertising by visiting <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">www.aboutads.info/choices</a> or <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener noreferrer">www.youronlinechoices.eu</a>. You may also instruct your browser to refuse all cookies, though some Site features may be affected.</p>
+
+    <h2 id="s4">4. Google AdSense &amp; Advertising</h2>
+    <p>We use <strong>Google AdSense</strong>, a web advertising service provided by Google LLC, to display advertisements on our Site. Google AdSense uses cookies to serve ads based on your prior visits to our Site or other websites on the internet.</p>
+    <p>Google AdSense may collect and use information including your IP address and browser information, browsing behavior across websites using Google services, demographic information and inferred interests, and the ads you click and your interaction with them.</p>
+    <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Google Ads Settings</a>. For more information on how Google collects and processes data, visit <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>.</p>
+    <p>We comply with Google's Publisher Policies and AdSense Program Policies. All advertising content on this Site is clearly presented and does not interfere with user experience or navigation.</p>
+
+    <h2 id="s5">5. Google Analytics</h2>
+    <p>We use <strong>Google Analytics</strong> to track and report website traffic. Google Analytics sets cookies in your browser to collect standard internet log information and visitor behavior information. We have enabled <strong>IP anonymization</strong> on our Google Analytics implementation. The data is aggregated and used to improve our content and user experience.</p>
+    <p>You may opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a>.</p>
+
+    <h2 id="s6">6. Third-Party Services</h2>
+    <p>Our Site may contain links to third-party websites, plugins, and services. We are not responsible for their privacy practices and encourage you to review their policies. These may include:</p>
+    <ul>
+      <li><strong>Google (Analytics, AdSense, Fonts, Maps):</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+      <li><strong>Instagram/Meta:</strong> <a href="https://www.instagram.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Instagram Privacy Policy</a></li>
+      <li><strong>Pinterest:</strong> <a href="https://policy.pinterest.com/privacy-policy" target="_blank" rel="noopener noreferrer">Pinterest Privacy Policy</a></li>
+      <li><strong>YouTube:</strong> <a href="https://www.youtube.com/howyoutubeworks/our-commitments/protecting-user-data/" target="_blank" rel="noopener noreferrer">YouTube Privacy</a></li>
+      <li><strong>Amazon Associates:</strong> We may participate in the Amazon Associates program and earn commissions from qualifying purchases.</li>
+    </ul>
+
+    <h2 id="s7">7. Sharing Your Information</h2>
+    <p>We do <strong>not sell, trade, or rent</strong> your personal information to third parties. We may share your information in the following limited circumstances:</p>
+    <ul><li><strong>Service Providers:</strong> Trusted companies that assist us in operating our website, subject to confidentiality agreements</li><li><strong>Legal Requirements:</strong> When required by law, court order, or governmental authority</li><li><strong>Business Transfers:</strong> In connection with any merger, acquisition, or sale of our assets</li><li><strong>Consent:</strong> With your explicit consent for any other purpose</li></ul>
+
+    <h2 id="s8">8. Your Privacy Rights</h2>
+    <p>Depending on your location, you may have the following rights:</p>
+    <ul><li><strong>Right to Access:</strong> Request a copy of the personal data we hold about you</li><li><strong>Right to Rectification:</strong> Request correction of inaccurate data</li><li><strong>Right to Erasure:</strong> Request deletion of your personal data ("right to be forgotten")</li><li><strong>Right to Restriction:</strong> Request we limit how we process your data</li><li><strong>Right to Data Portability:</strong> Receive your data in a machine-readable format</li><li><strong>Right to Object:</strong> Object to processing based on legitimate interests or for direct marketing</li><li><strong>Right to Withdraw Consent:</strong> Withdraw consent at any time for consent-based processing</li></ul>
+    <p><strong>California Residents (CCPA):</strong> You have the right to know what personal information is collected, the right to opt-out of the sale of personal information (we do not sell personal information), and the right to non-discrimination.</p>
+    <p><strong>EEA Residents (GDPR):</strong> Our legal bases for processing include your consent, the performance of a contract, our legitimate interests, and compliance with legal obligations.</p>
+    <p>To exercise any of these rights, contact us at <strong>privacy@wanderlustchronicles.com</strong>.</p>
+
+    <h2 id="s9">9. Children's Privacy</h2>
+    <p>Our Site is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe your child has provided us with personal information, please contact us immediately and we will delete such information promptly. We do not display personalized advertising to users we know to be under 18 years of age.</p>
+
+    <h2 id="s10">10. Data Security</h2>
+    <p>We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, loss, destruction, alteration, or disclosure. These measures include SSL/TLS encryption for data in transit, secure server infrastructure, access controls, and regular security assessments. However, no method of internet transmission is 100% secure, and we cannot guarantee absolute security.</p>
+
+    <h2 id="s11">11. Data Retention</h2>
+    <p>We retain your personal information only as long as necessary to fulfill the purposes outlined in this Policy. Newsletter subscriber information is retained until you unsubscribe. Contact form submissions are retained for up to 2 years. Analytics data is retained per Google's standard retention periods (typically 14 months for individual data).</p>
+
+    <h2 id="s12">12. International Data Transfers</h2>
+    <p>Your information may be transferred to and maintained on computers located outside your jurisdiction. We are based in Canada and process data there. Where required by law, we ensure appropriate safeguards (such as Standard Contractual Clauses) are in place for cross-border data transfers.</p>
+
+    <h2 id="s13">13. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy periodically. We will notify you of material changes by posting the new Privacy Policy on this page with an updated "Last Updated" date. We encourage you to review this page periodically. Changes are effective when posted.</p>
+
+    <h2 id="s14">14. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+    <ul><li><strong>By email:</strong> privacy@wanderlustchronicles.com</li><li><strong>By mail:</strong> Wanderlust Chronicles, 123 Explorer Way, Toronto, Ontario, M5V 2T6, Canada</li><li><strong>Data Protection Officer:</strong> dpo@wanderlustchronicles.com</li></ul>
+
+    <div class="disc-box">
+      <strong>Affiliate Disclosure:</strong> Wanderlust Chronicles participates in affiliate marketing programs. Some links on our site may be affiliate links, meaning we may earn a small commission if you click through and make a purchase — at no additional cost to you. We only recommend products and services we genuinely believe in. All sponsored content is clearly disclosed as such.
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════════ -->
+<footer id="footer">
+  <div class="foot-grid">
+    <div>
+      <div class="nav-logo" onclick="showPage('home')" style="margin-bottom:1rem">
+        <svg width="36" height="36" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="45" stroke="#c9a853" stroke-width="2.5"/><circle cx="50" cy="50" r="4.5" fill="#c9a853"/><path d="M50 14 L44.5 50 L50 45 L55.5 50 Z" fill="#c9a853"/><path d="M50 86 L55.5 50 L50 55 L44.5 50 Z" fill="rgba(255,255,255,.4)"/></svg>
+        <span class="nav-logo-text">Wanderlust <span>Chronicles</span></span>
+      </div>
+      <p class="foot-desc">Inspiring authentic travel experiences since 2018. We believe the world is best understood through the eyes of those who wander it with intention, curiosity, and an open heart.</p>
+      <div class="foot-soc">
+        <div class="soc-btn" title="Instagram">📷</div>
+        <div class="soc-btn" title="Pinterest">📌</div>
+        <div class="soc-btn" title="YouTube">▶</div>
+        <div class="soc-btn" title="Twitter">🐦</div>
+        <div class="soc-btn" title="Facebook">📘</div>
+      </div>
+    </div>
+    <div class="foot-col">
+      <h4>Destinations</h4>
+      <div class="foot-links">
+        <a onclick="filterDests('europe',null);showPage('destinations')">Europe</a>
+        <a onclick="filterDests('asia',null);showPage('destinations')">Asia</a>
+        <a onclick="filterDests('americas',null);showPage('destinations')">Americas</a>
+        <a onclick="filterDests('africa',null);showPage('destinations')">Africa</a>
+        <a onclick="filterDests('oceania',null);showPage('destinations')">Oceania</a>
+        <a onclick="showPage('destinations')">Island Escapes</a>
+      </div>
+    </div>
+    <div class="foot-col">
+      <h4>Travel Topics</h4>
+      <div class="foot-links">
+        <a onclick="filterPosts('adventure',null);showPage('blog')">Adventure Travel</a>
+        <a onclick="filterPosts('luxury',null);showPage('blog')">Luxury Travel</a>
+        <a onclick="filterPosts('budget',null);showPage('blog')">Budget Travel</a>
+        <a onclick="filterPosts('food',null);showPage('blog')">Food &amp; Culture</a>
+        <a onclick="filterPosts('guides',null);showPage('blog')">Destination Guides</a>
+        <a onclick="showPage('blog')">Family Travel</a>
+      </div>
+    </div>
+    <div class="foot-col">
+      <h4>Company</h4>
+      <div class="foot-links">
+        <a onclick="showPage('about')">About Us</a>
+        <a onclick="showPage('contact')">Contact</a>
+        <a onclick="showPage('contact')">Advertise With Us</a>
+        <a onclick="showPage('contact')">Write For Us</a>
+        <a onclick="showPage('privacy')">Privacy Policy</a>
+        <a onclick="showPage('privacy')">Terms of Service</a>
+        <a onclick="showPage('privacy')">Cookie Policy</a>
+        <a onclick="showPage('privacy')">Sitemap</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bot">
+    <p class="foot-copy">© 2025 Wanderlust Chronicles. All rights reserved. Made by travelers, for travelers.</p>
+    <div class="foot-bot-links">
+      <a onclick="showPage('privacy')">Privacy Policy</a>
+      <a onclick="showPage('privacy')">Terms of Service</a>
+      <a onclick="showPage('privacy')">Cookie Settings</a>
+      <a onclick="showPage('privacy')">Accessibility</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie">
+  <p>🍪 We use cookies to enhance your experience, serve personalized ads via <strong>Google AdSense</strong>, and analyze traffic via <strong>Google Analytics</strong>. By continuing to use this site, you agree to our use of cookies. <a href="#" onclick="ev(event);showPage('privacy')">Learn more in our Privacy Policy.</a></p>
+  <div class="cookie-acts">
+    <button class="ck-no" onclick="hideCookie()">Decline</button>
+    <button class="ck-ok" onclick="acceptCookie()">Accept All Cookies</button>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" onclick="closeLB()">
+  <button id="lb-close" onclick="closeLB()">✕</button>
+  <img id="lb-img" src="" alt="Gallery photo">
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════════════════════ -->
+<script>
+// ─── Helpers ─────────────────────────────────────────────
+function ev(e){e.preventDefault()}
+function $(sel,ctx){return (ctx||document).querySelector(sel)}
+function $$(sel,ctx){return [...(ctx||document).querySelectorAll(sel)]}
+
+// ─── Data: Destinations ──────────────────────────────────
+const DESTS=[
+  {id:'france',name:'France',region:'europe',tagline:'Art, Culture & Gastronomy',continent:'Western Europe',flag:'🇫🇷',rating:4.9,
+   hero:'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&auto=format&fit=crop&q=80',
+   badge:'Most Visited',bestTime:'April–June, Sep–Oct',budget:'$150–$300/day',currency:'Euro (€)',language:'French',visa:'Schengen Visa',climate:'Temperate oceanic',
+   highlights:['Eiffel Tower','Louvre Museum','Versailles','Loire Valley','French Riviera','Mont Saint-Michel'],
+   intro:'France is not just a destination — it is a philosophy of living. Where else can you breakfast on a buttery croissant steps from a Renaissance château, and watch the sun sink into a sea of lavender before dinner? This country hosts over 90 million tourists each year, and yet every corner still feels like a secret waiting to be discovered.',
+   sections:[
+     {title:'Paris: Beyond the Postcard',body:'There is a version of Paris that belongs to the world — the Eiffel Tower at golden hour, the Seine reflecting café lights, the impossibly chic locals in Saint-Germain. And then there is the Paris that belongs to those who wander: the covered passages of the 2nd arrondissement, the African markets of Château Rouge, the bookshops of the Latin Quarter where philosophy students argue over espresso. Give yourself at least five days in the capital.'},
+     {title:'Provence & the South of France',body:'When the lavender blooms in July, Provence becomes one of the most intoxicating places on earth. The hilltop villages of the Luberon — Gordes, Roussillon, Les Baux — look like they were painted by Cézanne. The French Riviera offers a different kind of glamour: the Belle Époque grandeur of Nice, the wealth of Monaco, and the bohemian calm of Antibes.'},
+     {title:'Burgundy & Loire Valley',body:'France\'s wine country demands a slower pace. In Burgundy, follow the Route des Grands Crus through vineyards producing legendary Pinot Noir. The Loire Valley is studded with over 300 châteaux, from the fairy-tale turrets of Chambord to the intimate perfection of Chenonceau. Rent a bicycle and cycle between them.'}
+   ],
+   tips:['Book museums (Louvre, Orsay, Versailles) weeks in advance online','The Paris Museum Pass covers 50+ museums — excellent value','Learn a few French phrases — even "Bonjour" changes the interaction','Carry cash for markets and small village shops','TGV high-speed trains connect cities faster than flying','Visit in May or September to avoid August peak crowds'],
+   gallery:['https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1431274172761-fca41d930114?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1583422409516-2895a77efded?w=600&auto=format&fit=crop&q=80']},
+  {id:'japan',name:'Japan',region:'asia',tagline:'Ancient Tradition Meets Futuristic Cities',continent:'East Asia',flag:'🇯🇵',rating:4.9,
+   hero:'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&auto=format&fit=crop&q=80',
+   badge:"Editor's Pick",bestTime:'March–May, Oct–Nov',budget:'$100–$250/day',currency:'Japanese Yen (¥)',language:'Japanese',visa:'Visa on Arrival (most nationalities)',climate:'Humid temperate',
+   highlights:['Mount Fuji','Kyoto Temples','Tokyo Skyline','Cherry Blossoms','Nara Deer Park','Hiroshima Peace Memorial'],
+   intro:'Japan is a country that defies expectations at every turn. Nowhere else can you stand in a hyper-modern megalopolis humming with neon, then step onto a train and be transported to an ancient forested temple where time seems to stand still. Japan rewards curious travelers with extraordinary depth — the more you look, the more you find.',
+   sections:[
+     {title:'Tokyo: Organized Chaos at Its Most Beautiful',body:'Tokyo is simultaneously the largest city on earth and one of the most navigable. Start in Shinjuku — the neon towers, the izakayas tucked into tiny alleyways, the impossibly efficient train station. Drift to Shibuya\'s famous crossing, the tranquil Harajuku side streets, and the otaku culture of Akihabara. Tokyo\'s food scene is staggering: the city has more Michelin stars than anywhere else in the world.'},
+     {title:"Kyoto: Japan's Spiritual Heart",body:"Kyoto is the former imperial capital and home to over 1,600 Buddhist temples and 400 Shinto shrines. Walk the vermilion torii gates of Fushimi Inari at dawn, or sit in the gravel garden of Ryōan-ji in perfect silence. Rent a bicycle through Gion, where you might glimpse a geiko. Stay in a traditional ryokan for at least one night."},
+     {title:'Rural Japan: Beyond the Cities',body:"The Japanese countryside is breathtaking and often overlooked. The Nakasendō trail connects Kyoto to Tokyo through ancient post towns barely changed since the Edo period. The Japanese Alps offer spectacular hiking in summer. The island of Yakushima is covered in ancient cedar forests that reportedly inspired Studio Ghibli's Princess Mononoke."}
+   ],
+   tips:['Get a JR Pass before arrival for unlimited Shinkansen bullet train travel','Download Google Translate with camera mode for menus and signs','Book spring cherry blossom travel months ahead — extremely popular','Cash is widely used — carry adequate amounts at all times','A pocket WiFi or SIM card is essential for navigation','Learn: "sumimasen" (excuse me) and "arigatou gozaimasu" (thank you)'],
+   gallery:['https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&auto=format&fit=crop&q=80']},
+  {id:'italy',name:'Italy',region:'europe',tagline:'La Dolce Vita Awaits',continent:'Southern Europe',flag:'🇮🇹',rating:4.8,
+   hero:'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&auto=format&fit=crop&q=80',
+   badge:'Top Rated',bestTime:'April–June, Sep–Oct',budget:'$100–$250/day',currency:'Euro (€)',language:'Italian',visa:'Schengen Visa',climate:'Mediterranean',
+   highlights:['Colosseum','Vatican City','Amalfi Coast','Venice Canals','Tuscan Countryside','Cinque Terre'],
+   intro:"Italy is the world's most irresistible country — a place where art, architecture, food, fashion, and natural beauty converge at every turn. From the ruins of ancient Rome to the Renaissance masterpieces of Florence, from the waterways of Venice to the rocky coastlines of the Amalfi, Italy rewards every sense with relentless generosity.",
+   sections:[
+     {title:'Rome: The Eternal City',body:"Rome's greatest achievement is making 3,000 years of history feel vivid and immediate. The Colosseum, the Forum, the Pantheon — these are not ruins; they are living monuments. Toss a coin in the Trevi Fountain at midnight. Eat carbonara the way Romans eat it — simply, at a trattoria with plastic tablecloths. Wander into any basilica and marvel at works by Caravaggio, Raphael, and Bernini."},
+     {title:'Tuscany: Painting and Poetry',body:"Tuscany is what the world imagines when it imagines Italy. Rolling hills lined with cypress trees, medieval hilltop towns, vineyards producing Chianti and Brunello, and the incomparable artistic legacy of Florence. The Uffizi Gallery houses the greatest Renaissance art collection on earth. Save time for slower pleasures: a wine tasting in Greve in Chianti, an afternoon in Siena's Piazza del Campo."},
+     {title:'The Amalfi Coast & Southern Italy',body:"The Amalfi Coast is among the world's most dramatic coastlines — narrow roads carved into vertiginous cliffs, villages tumbling to crystal water, lemon groves perfuming the air. Then continue south to Puglia, where baroque cities like Lecce are carved from golden limestone and the whitewashed trulli of Alberobello look like fairy tales."}
+   ],
+   tips:['Book Vatican, Colosseum, and Uffizi weeks in advance — they sell out','Trenitalia rail pass is excellent for city-hopping','Eat where locals eat — handwritten menus are a good sign','Aperitivo hour (6–9pm) often includes free snacks with a drink','At a café, espresso at the bar costs less than at a table','Pack comfortable shoes — cobblestones are beautiful but challenging'],
+   gallery:['https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1518730518541-d0843268c287?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600&auto=format&fit=crop&q=80']},
+  {id:'iceland',name:'Iceland',region:'europe',tagline:'Land of Fire, Ice & Aurora',continent:'Northern Europe',flag:'🇮🇸',rating:4.8,
+   hero:'https://images.unsplash.com/photo-1520769669658-f07657f5a307?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=800&auto=format&fit=crop&q=80',
+   badge:'Natural Wonder',bestTime:'Jun–Aug (midnight sun), Sep–Mar (aurora)',budget:'$200–$350/day',currency:'Icelandic Króna (ISK)',language:'Icelandic',visa:'Schengen Visa',climate:'Subarctic oceanic',
+   highlights:['Northern Lights','Golden Circle','Blue Lagoon','Jökulsárlón Glacier Lagoon','Snæfellsjökull','Skaftafell Glacier Hike'],
+   intro:"Iceland is nature on an extraordinary scale — a raw, volcanic island perched at the edge of the Arctic, where geysers erupt on schedule, waterfalls plunge into black-sand beaches, and the northern lights dance over crystalline glaciers. It is one of the most awe-inspiring places on earth, and no photograph does it justice.",
+   sections:[
+     {title:"The Ring Road: Iceland's Greatest Road Trip",body:"Route 1 circles the entire island for approximately 1,332 kilometers. Drive it in 7–10 days and you will experience an almost incomprehensible diversity of landscapes: lava fields, fjords, black sand beaches, and glacier-topped mountains. Stop at Jökulsárlón where icebergs float peacefully into the sea, glittering blue in the light."},
+     {title:"Reykjavík: The World's Northerly Capital",body:"Reykjavík punches above its weight for a city of 130,000. Its food scene has transformed — New Nordic cuisine, artisan bakeries, and excellent coffee. The Hallgrímskirkja church towers over colorful downtown. By night, the city's bar scene is legendary. A day in Reykjavík pairs perfectly with the Golden Circle route (Þingvellir, Geysir, Gullfoss) two hours away."},
+     {title:'Chasing the Northern Lights',body:"The Aurora Borealis runs September to March in Iceland. The darker and clearer the sky, the better. Download the Aurora Forecast app, head away from city lights, and wait. When they come — when green and purple curtains ripple across a star-packed sky — it is one of those moments that rewires something deep in your brain."}
+   ],
+   tips:['Rent a 4WD vehicle — many roads require off-road capability','Book Ring Road accommodation well ahead, especially in summer','Check road conditions at road.is before every drive','Pack a swimsuit — geothermal pools are everywhere and free','The Blue Lagoon requires advance booking; natural pools are free','Layer up — weather changes rapidly and dramatically'],
+   gallery:['https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1520769669658-f07657f5a307?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=600&auto=format&fit=crop&q=80']},
+  {id:'maldives',name:'Maldives',region:'asia',tagline:'Paradise Found: Crystal Waters & Overwater Villas',continent:'South Asia',flag:'🇲🇻',rating:4.9,
+   hero:'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1573843981267-be1481767de4?w=800&auto=format&fit=crop&q=80',
+   badge:'Honeymoon Favorite',bestTime:'November–April',budget:'$400–$1500+/day',currency:'USD widely accepted',language:'Dhivehi, English',visa:'30-day Visa on Arrival',climate:'Tropical monsoon',
+   highlights:['Overwater Bungalows','Snorkeling & Diving','Bioluminescent Beaches','Whale Sharks','Sunset Cruises','Manta Rays'],
+   intro:"The Maldives is what the travel industry means when it says 'paradise' — 1,200 coral islands scattered across the Indian Ocean like turquoise jewels. The water here is so luminously blue-green that it looks digitally enhanced. It is not. Stretching 26 natural atolls and hundreds of resort islands, this is earth's ultimate underwater paradise.",
+   sections:[
+     {title:'Choosing Your Island & Resort',body:"The Maldives is an archipelago where most resort islands are private. You arrive by speedboat or seaplane and have the island largely to yourself. Research your resort: some are surrounded by shallow water perfect for snorkeling; others have deeper channels for diving. The difference between a $400 bungalow and a $4,000 overwater villa is real but not always as vast as you'd imagine — the sea is the same for everyone."},
+     {title:'Under the Sea',body:"The real Maldives is underwater. The coral reefs are among the most biodiverse on earth. Swim with whale sharks at Maafushi. Dive Banana Reef. At night on Vaadhoo Island, the beach glows electric blue from bioluminescent plankton — a sight so otherworldly you'll question your own eyes."},
+     {title:'Beyond the Resort',body:"For travelers wanting more than pure relaxation, local islands (outside the resort system) offer authentic Maldivian culture — fishing communities, mosques, guesthouses at a fraction of resort cost. The capital, Malé, is a fascinating urban counterpoint: densely packed, colorful, very much a working city."}
+   ],
+   tips:['Book seaplane transfers in advance — timed with daylight and often sold out','Dry season Nov–Apr is best; May–Oct is monsoon but cheaper','Pack reef-safe sunscreen — regular sunscreen damages coral','Alcohol is only available at resort islands, not local islands','Snorkeling from the beach is often as rewarding as boat excursions','Mosquitoes are active at dawn and dusk — pack repellent'],
+   gallery:['https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1573843981267-be1481767de4?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1540202404-a2f29016b523?w=600&auto=format&fit=crop&q=80']},
+  {id:'morocco',name:'Morocco',region:'africa',tagline:'Spices, Souks & Desert Sands',continent:'North Africa',flag:'🇲🇦',rating:4.7,
+   hero:'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1489493512598-d08130f49bea?w=800&auto=format&fit=crop&q=80',
+   badge:'Culture & Color',bestTime:'March–May, Sep–Nov',budget:'$50–$150/day',currency:'Moroccan Dirham (MAD)',language:'Arabic, Berber, French',visa:'Visa-free (most nationalities, 90 days)',climate:'Mediterranean coast, desert south',
+   highlights:['Marrakech Medina','Sahara Desert','Chefchaouen Blue City','Fez Tanneries','Atlas Mountains','Essaouira Coast'],
+   intro:"Morocco is an assault on the senses — in the best possible way. The medinas of Marrakech and Fez are some of the world's last great medieval cities, labyrinths of souks where spices mingle with leather and rose water. Then, hours south by road, the Sahara begins. The world's largest hot desert stretches to infinity, and a camel carries you toward dunes that glow amber at sunset.",
+   sections:[
+     {title:'Marrakech: The Red City',body:"Marrakech is overwhelming, exhausting, and utterly irresistible. The Djemaa el-Fna transforms through the day: juice sellers and snake charmers by afternoon, storytellers and gnawa musicians by night. Behind it, the souks divide by trade — dyers, spice merchants, metalworkers, leather crafters. Your riad — a traditional courtyard home — is your haven of calm."},
+     {title:'The Sahara at Merzouga',body:"The drive from Marrakech to the Sahara takes you over the High Atlas, through Berber villages clinging to cliffsides. At Merzouga, mount a camel and ride into the Erg Chebbi dune field. Camp in a Berber tent as the sun sets the dunes on fire, eat tajine under stars, and wake before dawn to watch the Sahara come alive. One of the world's most affecting travel experiences."},
+     {title:"Fez: The World's Oldest Living City",body:"Fez el-Bali is a UNESCO World Heritage Site and arguably the most complete medieval Islamic city in existence. It has 9,000 streets, most too narrow for a car. Getting lost is inevitable and recommended. The Chouara tanneries are Morocco's signature image — men in stone vats of dye, leather drying on rooftops, colors vivid against tiled walls."}
+   ],
+   tips:['Bargaining is expected in souks — start at 40% of the asking price','Hire a licensed guide in Fez medina to navigate and access off-limits areas','Try street food: msemen flatbreads, harira soup, bastilla, fresh orange juice','Dress modestly, especially in religious areas and smaller towns','Book Sahara desert camps well ahead for December–March peak season','Train network efficiently connects Casablanca, Rabat, Fez, and Marrakech'],
+   gallery:['https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1553603227-2358aabe8cae?w=600&auto=format&fit=crop&q=80']},
+  {id:'greece',name:'Greece',region:'europe',tagline:'Whitewashed Cliffs & Crystalline Seas',continent:'Southern Europe',flag:'🇬🇷',rating:4.8,
+   hero:'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&auto=format&fit=crop&q=80',
+   badge:'Island Dream',bestTime:'May–June, Sep–Oct',budget:'$80–$200/day',currency:'Euro (€)',language:'Greek',visa:'Schengen Visa',climate:'Mediterranean',
+   highlights:['Santorini Caldera','Acropolis Athens','Mykonos','Rhodes Old Town','Meteora Monasteries','Delphi Oracle Site'],
+   intro:"Greece is the birthplace of democracy, philosophy, and Western civilization — and also one of the most beautiful countries on earth. The islands alone — more than 6,000 of them — could fill a lifetime of travel. Add mainland antiquity, Mediterranean cuisine, ouzo at sunset, and the extraordinary warmth of Greek hospitality, and the picture becomes irresistible.",
+   sections:[
+     {title:'Athens: Ancient & Modern in Constant Conversation',body:"Athens is chaotic, densely built, and proud of it. But the Acropolis above makes everything make sense. Climbing to the Parthenon at sunset, watching the light turn the marble gold, you feel 2,500 years pressing down pleasantly on your shoulders. Below, the Plaka district and Monastiraki market offer mezze, retsina, and long conversations with strangers."},
+     {title:'The Cyclades: Island Hopping in Paradise',body:"The Cyclades — Santorini, Mykonos, Paros, Naxos, Milos — are the Greece of the imagination: whitewashed cubic architecture, bougainvillea over blue-domed churches, fishing boats rocking in turquoise harbors. Santorini's caldera view from Oia at sunset is one of the world's great sights. Paros and Naxos offer similar beauty with fewer crowds."},
+     {title:'Mainland Greece: Beyond the Islands',body:"The Greek mainland is criminally undervisited. Meteora — where ancient monasteries perch on impossibly dramatic rock pinnacles — is UNESCO-listed and breath-stopping. Delphi commands a spectacular mountain setting. The Peloponnese has Mycenae, Olympia, and the Byzantine town of Mystras."}
+   ],
+   tips:['Visit Santorini and Mykonos in May or September to avoid August crowds','Book island ferry tickets in advance for summer travel — they sell out','Greek food is best at tavernas away from tourist strips — look for locals eating there','Hire a car on larger islands to reach beaches the tours miss','Many archaeological sites offer free entry on certain Sundays','The Athens Card provides discounted museum access and transport'],
+   gallery:['https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1555993539-1732b0258235?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1602088113235-229c19758e9f?w=600&auto=format&fit=crop&q=80']},
+  {id:'newzealand',name:'New Zealand',region:'oceania',tagline:'Adventure Capital of the World',continent:'Oceania',flag:'🇳🇿',rating:4.8,
+   hero:'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&auto=format&fit=crop&q=80',
+   badge:'Adventure Capital',bestTime:'Dec–Feb (summer), Jun–Aug (skiing)',budget:'$100–$200/day',currency:'NZD',language:'English, Māori',visa:'Electronic Travel Authority required',climate:'Oceanic temperate',
+   highlights:['Milford Sound','Queenstown','Fiordland NP','Tongariro Crossing','Hobbiton','Bay of Islands'],
+   intro:"New Zealand is a country that makes you understand why people dedicate their lives to outdoor adventure. Packed into two islands is a landscape of staggering variety: volcanic plateaus, glaciated fjords, wine country, geothermal valleys, and some of the most biodiverse rainforest in the Southern Hemisphere.",
+   sections:[
+     {title:'The South Island: Where Middle-Earth Lives',body:"The South Island is the reason New Zealand was chosen to double for Middle-Earth, and it needs no special effects. Queenstown is the adrenaline capital: bungee jumping, skydiving, jet boating. Milford Sound — deep in Fiordland — is perhaps the most dramatic natural amphitheater in the world. The Routeburn and Milford tracks are among the finest multi-day hikes on earth."},
+     {title:"The North Island: Geothermal & Cultural Heartland",body:"The North Island surprises visitors. The volcanic Tongariro Alpine Crossing is one of the world's best day hikes. Rotorua is a geothermal wonderland where the earth steams and bubbles. Auckland sits on a narrow isthmus between two harbors — the only city in the world built on a live volcanic field."},
+     {title:"Māori Culture: New Zealand's Living Heritage",body:"New Zealand's Māori culture is not a museum exhibit — it is a living expression of identity. Visit a marae (meeting ground) in Rotorua for authentic cultural immersion, including a hāngī feast cooked in an earth oven. Te reo Māori is increasingly prominent in everyday life, reflecting a deliberate national effort at cultural revival."}
+   ],
+   tips:['Renting a campervan is the classic way to see New Zealand','Book Milford Sound cruises and Great Walk hut tickets months ahead','Rent a campervan — freedom to stop wherever the view demands it','The Interislander ferry between Wellington and Picton is scenic and efficient','UV radiation is intense — sunscreen is essential year-round','Respect "Leave No Trace" principles — Kiwis take conservation very seriously'],
+   gallery:['https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&auto=format&fit=crop&q=80']},
+  {id:'peru',name:'Peru',region:'americas',tagline:'Inca Mysteries & Amazon Wonders',continent:'South America',flag:'🇵🇪',rating:4.8,
+   hero:'https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&auto=format&fit=crop&q=80',
+   badge:'Ancient Wonders',bestTime:'May–October (dry season)',budget:'$60–$150/day',currency:'Peruvian Sol (PEN)',language:'Spanish, Quechua',visa:'Visa-free (most nationalities)',climate:'Varied: Andes, Amazon, coast',
+   highlights:['Machu Picchu','Inca Trail','Sacred Valley','Lake Titicaca','Colca Canyon','Peruvian Amazon'],
+   intro:"Peru is one of the world's great civilizational destinations — layered with pre-Inca cultures, Inca achievements, and colonial history, set against landscapes of extraordinary drama: the Andes, the Amazon, and the desert coast. At its heart: Machu Picchu, the 15th-century Inca citadel that regularly tops polls of the world's most impressive sites, and still manages to exceed every expectation.",
+   sections:[
+     {title:'Machu Picchu: Managing Expectations (and Exceeding Them)',body:"Machu Picchu will not disappoint you. Visitor numbers are capped at around 4,500 per day with timed entry. Arrive at opening, ascend Huayna Picchu mountain for the aerial perspective, then walk the quieter southern terraces as morning tour groups disperse. Come early, come prepared, leave your cynicism at Aguas Calientes."},
+     {title:'The Sacred Valley: Inca Heartland',body:"The Urubamba River Valley deserves at least two full days. Pisac market on Sundays is one of the Andes' great spectacles; the Inca ruins above are spectacular. Ollantaytambo is the best-preserved Inca town in existence, still following its original street plan. Base yourself here to acclimatize before ascending further."},
+     {title:"Lima: South America's Culinary Capital",body:"Lima is often dismissed as a transit hub, and that is a grave mistake. The Peruvian capital has quietly become one of the world's greatest food cities — home to Central, Maido, and Astrid y Gastón, three of the world's top 50 restaurants. Ceviche at a Miraflores cevichería is one of the world's great meals."}
+   ],
+   tips:['Acclimatize in Cusco for 1–2 days before hiking at altitude','Book Machu Picchu tickets months in advance online — they sell out','The Inca Trail must be booked a year ahead for high season','Altitude sickness above 3,000m is common — take it slowly, try coca tea','Try ceviche, lomo saltado, anticuchos, and picarones — extraordinary food','The scenic train from Ollantaytambo to Aguas Calientes is spectacular'],
+   gallery:['https://images.unsplash.com/photo-1526392060635-9d6019884377?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=600&auto=format&fit=crop&q=80']},
+  {id:'thailand',name:'Thailand',region:'asia',tagline:'Land of Smiles, Temples & Islands',continent:'Southeast Asia',flag:'🇹🇭',rating:4.7,
+   hero:'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1528181304800-259b08848526?w=800&auto=format&fit=crop&q=80',
+   badge:'Best Value',bestTime:'November–April',budget:'$40–$120/day',currency:'Thai Baht (THB)',language:'Thai',visa:'Visa exemption (30 days, most nationalities)',climate:'Tropical monsoon',
+   highlights:['Grand Palace Bangkok','Chiang Mai Temples','Railay Beach','Phi Phi Islands','Doi Inthanon','Ayutthaya Ruins'],
+   intro:"Thailand has hosted backpackers and luxury travelers alike for half a century — for good reason. It offers an exceptional package of cultural richness, natural beauty, world-class food, and astonishing value. The kingdom stretches from the mountains of the north to the islands of the south, with Bangkok — one of the world's great cities — at its center.",
+   sections:[
+     {title:'Bangkok: Controlled Chaos & Hidden Temples',body:"Bangkok rewards travelers who embrace its contradictions. Soaring glass towers above the Chao Phraya River; a network of sky trains and express boats; air-conditioned mega-malls within walking distance of ancient canals where vendors sell noodles from wooden boats. The Grand Palace and Wat Pho are unmissable; so is a sunset cruise and an evening in a rooftop bar."},
+     {title:"Chiang Mai: The Cultural Capital of the North",body:"Chiang Mai sits in a broad valley in northern Thailand, ringed by forested mountains, and feels a world away from Bangkok. Its old city is packed with over 300 temples. Ethical elephant sanctuaries allow you to walk with rescued elephants in forest settings. The surrounding Doi Inthanon National Park offers waterfalls, highland villages, and exceptional birding."},
+     {title:'Southern Islands: Choosing Your Paradise',body:"Thailand's southern islands offer something for everyone: the party scene of Ko Samui, the tranquil limestone karst scenery of Krabi, the quiet dive destination of Ko Tao. Railay Beach — accessible only by boat, surrounded by vertical limestone cliffs — may be the most dramatic beach in Asia."}
+   ],
+   tips:['Cover shoulders and knees when visiting temples — carry a sarong','The BTS Skytrain and MRT subway are the best way around Bangkok','Street food in Thailand is safe, delicious, and often the best meal of the day','High season is November–March; Andaman coast is dry Oct–Apr, Gulf side May–Oct','Negotiate tuk-tuk and songthaew fares in advance','Take a Thai cooking class — skills and recipes you will use for life'],
+   gallery:['https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=600&auto=format&fit=crop&q=80']},
+  {id:'kenya',name:'Kenya',region:'africa',tagline:'The Greatest Wildlife Show on Earth',continent:'East Africa',flag:'🇰🇪',rating:4.8,
+   hero:'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1535941339077-2dd1c7963098?w=800&auto=format&fit=crop&q=80',
+   badge:'Wildlife Premier',bestTime:'Jul–Oct (Great Migration), Jan–Feb',budget:'$150–$500/day',currency:'Kenyan Shilling (KES)',language:'Swahili, English',visa:'eVisa required',climate:'Equatorial/savanna/coastal tropical',
+   highlights:['Maasai Mara','Great Migration','Amboseli (Kilimanjaro views)','Lewa Conservancy','Diani Beach','Nairobi National Park'],
+   intro:"Kenya is the safari. No other destination combines the drama of the Great Migration — 1.5 million wildebeest crossing the Mara River as crocodiles wait below — with the Big Five, the vast savanna skies, and the extraordinary Maasai people who have lived alongside wildlife for centuries. A Kenyan safari is not a zoo visit; it is a humbling encounter with the wild world.",
+   sections:[
+     {title:"The Maasai Mara: Kenya's Wildlife Crown Jewel",body:"The Maasai Mara National Reserve holds permanent populations of lion, leopard, cheetah, elephant, buffalo, hippo, and crocodile, plus hundreds of bird species. The Great Migration arrives July to October — the Mara River crossings are among nature's most extraordinary spectacles. Stay at a tented camp within the reserve for the most immersive experience."},
+     {title:'Amboseli: Elephants Against Kilimanjaro',body:"Amboseli National Park, in the shadow of Kilimanjaro, is the place to photograph elephants. The park's famous large-tusked bulls move through swamps against a backdrop of Africa's highest peak. Dawn here, when the mountain is clear and the light is golden and the elephants are moving, is one of the most profoundly beautiful scenes you will ever witness."},
+     {title:"The Kenyan Coast: Swahili Culture & Indian Ocean",body:"Kenya's Indian Ocean coastline offers a completely different experience: Swahili architecture in Lamu (a UNESCO World Heritage Site), pristine beaches at Diani and Watamu, world-class diving at Watamu Marine National Park, and the spice-scented alleys of Mombasa's Old Town. A post-safari beach extension is the classic Kenya itinerary."}
+   ],
+   tips:['Book safari accommodation 6–12 months ahead for July–October Great Migration','A private conservancy often offers better game viewing than the main reserve','Morning and late afternoon game drives are best — animals are most active','Yellow fever vaccination may be required — check current requirements','Always follow your guide\'s instructions around wildlife','Budget travelers: Nairobi National Park offers surprisingly excellent wildlife'],
+   gallery:['https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1535941339077-2dd1c7963098?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80']},
+  {id:'costarica',name:'Costa Rica',region:'americas',tagline:'Pura Vida: Biodiversity & Rainforest Bliss',continent:'Central America',flag:'🇨🇷',rating:4.6,
+   hero:'https://images.unsplash.com/photo-1518259102261-b40117eabbc9?w=1920&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&auto=format&fit=crop&q=80',
+   badge:'Eco Paradise',bestTime:'December–April (dry season)',budget:'$70–$180/day',currency:'USD widely accepted',language:'Spanish',visa:'Visa-free (most nationalities)',climate:'Tropical: dry Pacific, wet Caribbean',
+   highlights:['Manuel Antonio NP','Arenal Volcano','Monteverde Cloud Forest','Tortuguero Canals','Corcovado NP','Surfing Nosara'],
+   intro:"Costa Rica is the world's greatest argument for the economic value of biodiversity conservation. This tiny country — smaller than West Virginia — contains 5% of the world's biodiversity. It has largely abolished its military, generates 99% of its electricity from renewables, and rebuilt its forest cover from 26% in 1983 to over 52% today. And it is extraordinarily beautiful.",
+   sections:[
+     {title:'National Parks: Biodiversity on Display',body:"Costa Rica's national parks protect over 25% of the country's land. Manuel Antonio combines rainforest and white-sand beaches with three-toed sloths and capuchin monkeys. Tortuguero is a vital sea turtle nesting site — watching a giant leatherback come ashore at night is deeply moving. Corcovado, on the remote Osa Peninsula, is National Geographic's 'most biologically intense place on earth.'"},
+     {title:'Volcanos & Cloud Forests',body:"Arenal Volcano anchors Costa Rica's most popular tourist region. The volcanic hot springs at La Fortuna remain magnificently active. Nearby Monteverde Cloud Forest is high-altitude, perpetually mist-wrapped, alive with hummingbirds, quetzals, and the resplendent birding that awaits those who wake at dawn."},
+     {title:'Pura Vida: The Costa Rican Philosophy',body:"'Pura vida' — pure life — is used for hello, goodbye, you're welcome, and a general philosophical appreciation of life. Costa Ricans live it authentically: excellent healthcare, high literacy, and consistently ranked among the world's happiest people despite a modest GDP. Spend time with locals and it becomes clear why."}
+   ],
+   tips:['4WD vehicle is essential for many secondary roads, especially rainy season','Book eco-lodges in remote parks well ahead — some have only a handful of rooms','Guided night walks in any rainforest reveal an extraordinary nocturnal world','Tip guides generously — Costa Rican naturalist guides are world-class','Pura vida: the national philosophy applies to schedules too — embrace the pace','The dry season is Dec–Apr on the Pacific coast; Caribbean is drier May–Sep'],
+   gallery:['https://images.unsplash.com/photo-1518259102261-b40117eabbc9?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=600&auto=format&fit=crop&q=80','https://images.unsplash.com/photo-1552410260-0fd9b577afa6?w=600&auto=format&fit=crop&q=80']}
+];
+
+// ─── Data: Blog Posts ─────────────────────────────────────
+const POSTS=[
+  {id:'japan-itinerary',title:'10 Days in Japan: The Perfect First-Timer\'s Itinerary',cat:'Guides',tag:'guides',
+   author:'Alex Mercer',aimg:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=60&auto=format&fit=crop',
+   date:'October 15, 2025',read:'14 min',
+   hero:'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&auto=format&fit=crop&q=80',
+   exc:'From Tokyo\'s neon-soaked streets to Kyoto\'s ancient temple gardens — this is the definitive Japan itinerary for first-time visitors. Where to sleep, what to eat, and how to navigate it all.',
+   tags:['Japan','Itinerary','Asia','First Timer'],
+   content:`<p>Japan rewards the prepared traveler like no other destination on earth. Its public transport runs to the second; its food culture is so deep that a single ingredient can have an entire philosophy behind it; its hospitality tradition (omotenashi) is so total that it fundamentally changes your expectations of service everywhere else you go.</p>
+<h2>Days 1–4: Tokyo</h2>
+<p>Arrive into Narita or Haneda and take the Narita Express directly to your accommodation. Choose a central base: Shinjuku, Shibuya, or Asakusa all work brilliantly. Day 1 should be gentle — Tokyo is overwhelming at first. Walk your neighborhood. Find the nearest konbini (7-Eleven or FamilyMart) and experience the miracle of Japanese convenience food. Have ramen. Sleep early.</p>
+<h3>Day 2: Harajuku, Shibuya & Roppongi</h3>
+<p>Start at Meiji Shrine in the forested heart of Harajuku. Walk through Takeshita Street's youth fashion scene. Lunch at a standing ramen bar. Spend the afternoon in Shibuya — cross the famous scramble, browse Tower Records, and ascend Shibuya Sky observation deck as the sun sets over the city.</p>
+<blockquote>"Day 1 should be gentle. Tokyo is overwhelming at first. Walk your neighborhood. Have ramen. Sleep early."</blockquote>
+<h3>Day 3: Asakusa & Tokyo Skytree</h3>
+<p>Senso-ji Temple in Asakusa at dawn — before the tourists — is a genuinely moving experience. The Nakamise shopping street leads into the temple grounds past stalls selling ningyo-yaki and kaminari-okoshi. Cross the Sumida River to the Skytree. The Ueno area has excellent museums and a park perfect for picnicking.</p>
+<h3>Day 4: Day Trip</h3>
+<ul><li>Nikko (2h): ornate Tosho-gu shrine complex in cedar forest</li><li>Kamakura (1h): Great Buddha and Zen temples on the coast</li><li>Hakone (1h30m): Mt. Fuji views, ryokan hot springs, open-air sculpture museum</li></ul>
+<h2>Days 5–7: Kyoto</h2>
+<p>Take the Shinkansen (around 2h15m). Kyoto has a grid layout — rent a bicycle for your first day. Walk Fushimi Inari at 6am. Explore Arashiyama's bamboo grove. Nijo Castle in the afternoon. On day 7, take a day trip to Nara for the sacred deer and the giant bronze Buddha at Todai-ji.</p>
+<h2>Days 8–10: Osaka</h2>
+<p>Osaka is 15 minutes from Kyoto by Shinkansen. It is Japan's food city — louder, cheaper, and more carnivorous than Kyoto. Dotonbori district at night is one of Japan's great street scenes. Try: takoyaki, okonomiyaki, kushikatsu. Then try them again. Osaka's food culture is built around kuidaore — "eat until you drop." Fly home from Kansai International Airport with enough omiyage to keep everyone happy until your next trip — which you will be planning before you land.</p>`},
+  {id:'morocco-food',title:"A Food Lover's Complete Guide to Morocco",cat:'Food & Culture',tag:'food',
+   author:'Marcus Chen',aimg:'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&auto=format&fit=crop',
+   date:'September 22, 2025',read:'11 min',
+   hero:'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&auto=format&fit=crop&q=80',
+   exc:"From slow-cooked tajine to street-side harira soup, from bastilla to msemen flatbreads at dawn — Morocco's food is one of the world's great culinary traditions.",
+   tags:['Morocco','Food','Culture','Africa'],
+   content:`<p>Moroccan cuisine is the result of 3,000 years of culinary layering — Berber foundations, Arab spice trade influences, Moorish sophistication from Andalusia, and French colonial precision. The result is one of the world's most complex and pleasurable food traditions.</p>
+<h2>The Essential Moroccan Dishes</h2>
+<h3>Tajine: The National Dish</h3>
+<p>The conical clay pot called a tajine gives its name to the slow-cooked stews prepared inside it. Heat circulates through the cone, condensing steam that drips back onto the ingredients — a technique that produces extraordinarily tender meat. The most classic version: chicken with preserved lemon and olives. Also excellent: lamb with prunes and almonds, or kefta meatballs with eggs.</p>
+<h3>Bastilla: Morocco's Most Complex Dish</h3>
+<p>Bastilla is a performance as much as a dish. Layered warqa pastry encases shredded pigeon or chicken, beaten eggs, almonds, and ras el hanout spice blend, then dusted with icing sugar and cinnamon. Sweet, savory, and crunchy — startling at first, then intoxicating. Originally made for royal celebrations, bastilla is now found in traditional restaurants across Morocco. Order it as a starter.</p>
+<blockquote>"In Morocco, a meal without bread is not a meal. And a meal without mint tea is not quite a life."</blockquote>
+<h2>Street Food: The Real Morocco</h2>
+<ul><li><strong>Harira:</strong> A thick soup of tomatoes, lentils, chickpeas, and lamb. Eaten to break the Ramadan fast and available year-round for a few dirhams.</li><li><strong>Msemen:</strong> Flaky, layered flatbread cooked on a griddle. Best eaten fresh with honey and argan oil at breakfast.</li><li><strong>Merguez:</strong> Spiced lamb sausages, grilled over charcoal in the Djemaa el-Fna — eat standing up with harissa and warm bread.</li><li><strong>Chebakia:</strong> Honey-soaked fried pastry flavored with sesame, anise, and rose water. Widely available during Ramadan.</li></ul>
+<h2>The Art of Mint Tea</h2>
+<p>Moroccan mint tea (atay) is not just a drink — it is a ritual, a welcome, and a negotiation. Fresh mint leaves, gunpowder green tea, and an immodest quantity of sugar are poured from great height to create foam. It is served in three glasses — "the first glass is gentle as life, the second strong as love, the third bitter as death." Never refuse a glass offered by a shopkeeper or host.</p>`},
+  {id:'iceland-aurora',title:"Northern Lights in Iceland: The Complete Chaser's Guide",cat:'Adventure',tag:'adventure',
+   author:'Alex Mercer',aimg:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=60&auto=format&fit=crop',
+   date:'November 8, 2025',read:'9 min',
+   hero:'https://images.unsplash.com/photo-1520769669658-f07657f5a307?w=1200&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=800&auto=format&fit=crop&q=80',
+   exc:"The northern lights are one of the most awe-inspiring natural phenomena on earth. This guide tells you exactly when to go, where to stand, and how to photograph them — from a writer who has chased them for ten winters.",
+   tags:['Iceland','Northern Lights','Adventure','Photography'],
+   content:`<p>I have seen the northern lights twenty-three times. I have never stopped feeling the way I felt the first time — that the sky is alive, that the universe is performing just for you, that whatever you believed about life before this moment may need some revision.</p>
+<h2>When to See the Northern Lights in Iceland</h2>
+<p>The northern lights are visible from September through March — the months with enough darkness. The absolute best months are February and March, when darkness is longer and geomagnetic activity tends to be higher. The summer months (May–August) have midnight sun — incompatible with aurora viewing.</p>
+<h2>Reading the Aurora Forecast</h2>
+<p>The Icelandic Meteorological Office publishes a daily aurora forecast at vedur.is — this is your bible. You need two things: geomagnetic activity (rated 0–9 on the Kp index; anything above 3 is promising) and clear skies. Both are required. A Kp of 7 under cloud cover is meaningless.</p>
+<blockquote>"The northern lights are fundamentally uncontrollable. They come when they come. What you can control is where you are when they do."</blockquote>
+<h2>Where to Go</h2>
+<ul><li><strong>Þingvellir National Park (45 min):</strong> Dark, flat, dramatic. Watch from the lake shore.</li><li><strong>Akranes peninsula (45 min):</strong> Mountain backdrop, sea views, reliably dark.</li><li><strong>Vik (2.5h):</strong> Black sand beach at Reynisfjara with sea stacks — one of the most dramatic aurora settings.</li><li><strong>Jökulsárlón (5h):</strong> Aurora reflecting in a lagoon of floating icebergs — possibly the single most spectacular aurora location on earth.</li></ul>
+<h2>Photographing the Northern Lights</h2>
+<p>For proper aurora photography: a camera with manual controls, a wide-angle lens (24mm or wider), and a tripod. Settings: ISO 800–3200, f/2.8, shutter speed 5–15 seconds. Experiment. Every aurora is different. And remember: some things are better lived than photographed.</p>`},
+  {id:'greece-islands',title:'The Perfect 2-Week Greek Island Hopping Itinerary',cat:'Guides',tag:'guides',
+   author:'Sofia Vasquez',aimg:'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&auto=format&fit=crop',
+   date:'September 5, 2025',read:'12 min',
+   hero:'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=1200&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&auto=format&fit=crop&q=80',
+   exc:'Greece has 6,000 islands — but which ones? This curated 14-day itinerary hits Santorini, Paros, Naxos, and Milos, balancing the iconic with the genuinely undiscovered.',
+   tags:['Greece','Island Hopping','Europe','Mediterranean'],
+   content:`<p>The Greek islands are among the world's most fabled travel destinations — and also among the most misunderstood. Many visitors make a beeline for Santorini and Mykonos. Both are genuinely beautiful. But the real magic of Greek island hopping is in the islands that don't appear on postcards — yet.</p><h2>Days 1–2: Athens</h2><p>Begin with two days in Athens. The Acropolis at sunset. Dinner in the Plaka. The National Archaeological Museum. Athens rewards those who look beyond the monuments: the street art of Exarcheia, the fish tavernas of Mikrolimano, the rebetika music clubs open until dawn.</p><h2>Days 3–5: Santorini</h2><p>Santorini's caldera view from Oia is one of the world's great views — see it at least once. Hire an ATV and explore the southern beaches: Perissa's black volcanic sand, the Red Beach, the Mesa Pigadia quarry. Oia at sunset draws enormous crowds; watch from Imerovigli instead — equal views, a fraction of the people.</p><h2>Days 6–8: Paros</h2><p>Paros is Santorini's relaxed, unpretentious neighbor. Naoussa fishing village is the island's social hub: white-painted tavernas, a Venetian castle, beach clubs that ease you into the evening. Paros has some of the best windsurfing in the Aegean. Cycle the island's interior — golden marble quarries, Byzantine churches, sleeping cats.</p><h2>Days 9–11: Naxos</h2><p>Naxos is the largest and most fertile Cycladic island — it actually grows things, unlike its rockier neighbors. The Portara (a giant marble doorway, remnant of an unfinished temple to Apollo) is one of the Aegean's most atmospheric sights. Naxos Town has labyrinthine Venetian streets, excellent local cheese, and kitron liqueur made from citron trees found nowhere else on earth.</p><h2>Days 12–14: Milos</h2><p>Milos is Greece's most underrated island. Its coastline is extraordinary: the famous Sarakiniko moonscape of white volcanic rock, the multicolored fishing village of Klima built into sea-level caves, the beach of Tsigrado accessible only by ladder from the cliffs above. Milos has excellent fresh seafood, far fewer tourists than its Cycladic neighbors, and an authenticity that feels increasingly rare in Greek summer.</p>`},
+  {id:'machu-picchu',title:"Machu Picchu: The Complete Visitor's Guide (2025)",cat:'Guides',tag:'guides',
+   author:'Alex Mercer',aimg:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=60&auto=format&fit=crop',
+   date:'August 14, 2025',read:'16 min',
+   hero:'https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1200&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&auto=format&fit=crop&q=80',
+   exc:"Everything you need to know to visit Machu Picchu in 2025: tickets, entry times, altitude sickness, trains, and the insider tips that make the difference between a good visit and an extraordinary one.",
+   tags:['Peru','Machu Picchu','Historical','Americas'],
+   content:`<p>Machu Picchu has been on your list for years. You've seen the photographs — the citadel emerging from morning mist, the terraces cascading toward the Urubamba valley, the Inca stonework so precise that mortar was never needed. Nothing fully prepares you for the scale and perfection of the real thing.</p><h2>Booking Your Ticket</h2><p>Machu Picchu now operates on a strict timed-entry system with approximately 4,500 visitors per day across multiple time slots. You must book your ticket in advance at the official website (machupicchu.gob.pe). Do this months ahead for peak season (June–August) or risk finding no tickets available. Tickets include a specific entry time — Circuit 1, 2, or 3 — and you cannot switch once booked.</p><h2>Getting There</h2><p>The classic approach: fly to Cusco, acclimatize for 2 days, take a train from Ollantaytambo to Aguas Calientes (Machu Picchu Pueblo), then bus up the mountain. The train journey through the Sacred Valley and into the Urubamba gorge is spectacularly beautiful. PeruRail and Inca Rail both run services; book these in advance too.</p><blockquote>"Nothing fully prepares you for the scale and perfection of the real thing. Machu Picchu will not disappoint."</blockquote><h2>Altitude Sickness</h2><p>Cusco sits at 3,400m (11,150 ft). Altitude sickness affects many visitors regardless of fitness level. Take it seriously: arrive two days early, drink coca tea, avoid alcohol and strenuous activity on day one. Consider acetazolamide (Diamox) if you're prone to altitude issues — consult your doctor before travel.</p><h2>On the Day</h2><p>Arrive at the bus queue in Aguas Calientes at least 30 minutes before your time slot. Once inside: climb Huayna Picchu mountain (requires separate ticket, extremely limited numbers — book months in advance) for the aerial perspective looking down at the citadel. Or hike the Sun Gate (Inti Punku) — a 1.5-hour return walk with extraordinary panoramic views.</p><h2>What Nobody Tells You</h2><p>The afternoon light is often better than morning light for photography. The crowd thins dramatically after 1pm. The agricultural terraces in the southern section are less visited and wonderfully atmospheric. Bring rain gear — mist rolls in unpredictably year-round. And spend the night in Aguas Calientes rather than doing a day trip from Cusco — you'll be glad you did when you watch the sun rise over the ruins in near solitude.</p>`},
+  {id:'sea-budget',title:'Southeast Asia on $50 a Day: The Budget Travel Playbook',cat:'Budget Travel',tag:'budget',
+   author:'Marcus Chen',aimg:'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&auto=format&fit=crop',
+   date:'July 30, 2025',read:'10 min',
+   hero:'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&auto=format&fit=crop&q=80',
+   thumb:'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&auto=format&fit=crop&q=80',
+   exc:"Thailand, Vietnam, Cambodia, Laos, and Indonesia offer the world's best travel experiences at astonishing value. Here's how to see Southeast Asia properly without breaking the bank.",
+   tags:['Budget Travel','Southeast Asia','Thailand','Vietnam'],
+   content:`<p>Southeast Asia remains the world's most compelling budget travel destination — a region where $50 a day in Thailand buys comfortable accommodation, three excellent meals, local transport, and often an activity or entrance fee to spare. Vietnam is even cheaper. Cambodia more so. And Indonesia is a budget traveler's paradise that requires genuine effort to overspend in.</p><h2>The Budget Breakdown</h2><ul><li><strong>Accommodation:</strong> $10–$20/night for a clean private room with AC and Wi-Fi in most cities; $5–$10 in dorm beds at good hostels. Boutique guesthouses with pools exist for $25–$40.</li><li><strong>Food:</strong> $1–$3 for street food (pad thai, pho, bahn mi, rice dishes). $5–$10 for a sit-down restaurant. $15–$20 for a genuinely nice dinner with drinks.</li><li><strong>Transport:</strong> $15–$30 for overnight buses or budget flights between countries. Tuk-tuks and motorbike taxis are cents for short journeys.</li><li><strong>Activities:</strong> Most temples are $2–$5. Scuba diving: $30–$40/dive. Full-day boat trips: $20–$40. Cooking classes: $20–$30.</li></ul><h2>The Best Value Countries, Ranked</h2><p>Indonesia (Bali, Java, Komodo) offers extraordinary variety at very low cost. Vietnam from north to south is a revelation — the cuisine alone justifies the trip. Thailand is the classic introduction: easy, safe, excellent infrastructure. Cambodia is the most underrated: Siem Reap and Angkor Wat are remarkable, and prices are very low. Laos is the least visited and most peaceful, with some of the best nature in the region.</p><blockquote>"The best meal I ever had in Southeast Asia cost $1.50, eaten standing at a street stall in Hanoi at 7am. Nothing at a $300-a-night resort has come close."</blockquote><h2>Money-Saving Hacks That Actually Work</h2><ul><li>Night buses and sleeper trains save both time and accommodation costs</li><li>Local SIM cards are $5–$10 with plenty of data — avoid roaming entirely</li><li>Eat where locals eat: plastic stools, outdoor kitchens, handwritten menus</li><li>Book flights on AirAsia, VietJet, or Lion Air for inter-country hops</li><li>Use ATMs only when necessary — carry some USD as universal backup</li><li>Shoulder season (April–June) offers cheaper prices and fewer tourists</li></ul>`}
+];
+
+// ─── Page Routing ─────────────────────────────────────────
+const PAGES={home:'p-home',destinations:'p-destinations',destination:'p-destination',blog:'p-blog',post:'p-post',about:'p-about',contact:'p-contact',privacy:'p-privacy'};
+let postsVisible=4;
+
+function showPage(name){
+  Object.values(PAGES).forEach(id=>{const el=$('#'+id);if(el)el.classList.add('hidden')});
+  const el=$('#'+PAGES[name]);
+  if(el)el.classList.remove('hidden');
+  window.scrollTo({top:0,behavior:'smooth'});
+  // Nav active state
+  $$('.nav-links a').forEach(a=>a.classList.remove('act'));
+  const map={home:0,destinations:1,blog:2,about:3,contact:4};
+  const idx=map[name];
+  if(idx!==undefined){const links=$$('.nav-links a');if(links[idx])links[idx].classList.add('act')}
+  // Init content
+  if(name==='destinations')renderAllDests();
+  if(name==='blog'){postsVisible=4;renderAllPosts()}
+  // Update nav appearance
+  const nav=$('#nav');
+  if(name==='home'){nav.dataset.page='dark'}else{nav.dataset.page='inner'}
+  if(!nav.classList.contains('scrolled')){
+    if(name!=='home'){nav.style.background='rgba(11,25,41,.97)'}
+    else{nav.style.background='transparent'}
+  }
+}
+
+// ─── Stars ───────────────────────────────────────────────
+function stars(r){return'★'.repeat(Math.floor(r))+(r%1>=.5?'½':'')+'☆'.repeat(5-Math.floor(r)-(r%1>=.5?1:0))}
+
+// ─── Render: Homepage Destinations ───────────────────────
+function renderHomeDests(){
+  const g=$('#h-dests');if(!g)return;
+  g.innerHTML=DESTS.slice(0,6).map((d,i)=>`
+    <div class="dc ${i===0?'feat':''} reveal d${Math.min(i+1,4)}" onclick="loadDest('${d.id}')">
+      <img class="dc-img" src="${d.thumb}" alt="${d.name}" loading="lazy">
+      <div class="dc-ov"></div>
+      ${d.badge?`<div class="dc-badge">${d.badge}</div>`:''}
+      <div class="dc-cnt">
+        <span class="dc-flag">${d.flag}</span>
+        <span class="dc-name">${d.name}</span>
+        <span class="dc-tag">${d.tagline}</span>
+        <div class="dc-body">
+          <span class="dc-stars">${stars(d.rating)}</span><span class="dc-rating-txt">${d.rating} · ${d.continent}</span>
+          <div class="dc-btn">Discover More →</div>
+        </div>
+      </div>
+    </div>`).join('');
+  initReveal();
+}
+
+// ─── Render: Homepage Blog ────────────────────────────────
+function renderHomeBlog(){
+  const g=$('#h-blog');if(!g)return;
+  g.innerHTML=POSTS.slice(0,3).map(p=>`
+    <div class="bc reveal" onclick="loadPost('${p.id}')">
+      <div class="bc-imgw"><img class="bc-img" src="${p.thumb}" alt="${p.title}" loading="lazy"></div>
+      <div class="bc-body">
+        <span class="bc-cat">${p.cat}</span>
+        <h3 class="bc-title">${p.title}</h3>
+        <p class="bc-exc">${p.exc.substring(0,110)}…</p>
+        <div class="bc-meta">
+          <div class="bc-auth"><img class="bc-av" src="${p.aimg}" alt="${p.author}"><span>${p.author}</span></div>
+          <span>🕐 ${p.read}</span>
+        </div>
+      </div>
+    </div>`).join('');
+  initReveal();
+}
+
+// ─── Render: All Destinations ─────────────────────────────
+function renderAllDests(filter='all'){
+  const g=$('#all-dests');if(!g)return;
+  const list=filter==='all'?DESTS:DESTS.filter(d=>d.region===filter);
+  g.innerHTML=list.map(d=>`
+    <div class="dgc reveal" onclick="loadDest('${d.id}')">
+      <img class="dgc-img" src="${d.thumb}" alt="${d.name}" loading="lazy">
+      <div class="dgc-ov"></div>
+      ${d.badge?`<div class="dgc-badge">${d.badge}</div>`:''}
+      <div class="dgc-info">
+        <span class="dgc-flag">${d.flag}</span>
+        <span class="dgc-name">${d.name}</span>
+        <span class="dgc-region">${d.continent}</span>
+      </div>
+    </div>`).join('');
+  initReveal();
+}
+
+function filterDests(r,btn){
+  if(btn){$$('.filter-bar .fbtn').forEach(b=>b.classList.remove('act'));btn.classList.add('act')}
+  renderAllDests(r);
+}
+
+// ─── Load: Destination Detail ─────────────────────────────
+function loadDest(id){
+  const d=DESTS.find(x=>x.id===id);if(!d)return;
+  $('#dd-content').innerHTML=`
+    <div class="ph" style="height:65vh">
+      <div class="ph-bg" style="background-image:url('${d.hero}')"></div>
+      <div class="ph-cnt">
+        <div class="breadcrumb">
+          <span onclick="showPage('home')">Home</span><span class="breadcrumb-sep">›</span>
+          <span onclick="showPage('destinations')">Destinations</span><span class="breadcrumb-sep">›</span>
+          <span>${d.name}</span>
+        </div>
+        <h1 class="ph-title">${d.flag} ${d.name}</h1>
+        <p class="ph-sub">${d.tagline}</p>
+        <div style="display:flex;gap:.75rem;margin-top:1rem;flex-wrap:wrap">
+          <span style="background:rgba(201,168,83,.2);border:1px solid rgba(201,168,83,.5);color:var(--gold);padding:.25rem .8rem;border-radius:20px;font-size:.75rem;font-weight:700">⭐ ${d.rating}</span>
+          <span style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.85);padding:.25rem .8rem;border-radius:20px;font-size:.75rem">📅 ${d.bestTime}</span>
+          <span style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.85);padding:.25rem .8rem;border-radius:20px;font-size:.75rem">💰 ${d.budget}</span>
+        </div>
+      </div>
+    </div>
+    <div class="dd-body">
+      <div class="dd-main">
+        <p class="dd-intro">${d.intro}</p>
+        <div class="dd-div"></div>
+        ${d.sections.map(s=>`<h2>${s.title}</h2><p>${s.body}</p><div class="dd-div"></div>`).join('')}
+        <h2>Photo Gallery</h2>
+        <div class="dd-gallery">
+          ${d.gallery.map(img=>`<div class="dd-gi" onclick="openLB('${img}')"><img src="${img}" alt="${d.name}" loading="lazy"></div>`).join('')}
+        </div>
+        <div class="ad-wrap" style="padding:0;margin:2.5rem 0">
+          <div class="ad-unit">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="4444444444" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script>
+          </div>
+        </div>
+      </div>
+      <div class="dd-sidebar">
+        <div class="sb-card">
+          <h3>Essential Information</h3>
+          <div class="info-row"><span class="info-icon">📍</span><div><span class="info-lbl">Region</span><span class="info-val">${d.continent}</span></div></div>
+          <div class="info-row"><span class="info-icon">📅</span><div><span class="info-lbl">Best Time</span><span class="info-val">${d.bestTime}</span></div></div>
+          <div class="info-row"><span class="info-icon">💰</span><div><span class="info-lbl">Daily Budget</span><span class="info-val">${d.budget}</span></div></div>
+          <div class="info-row"><span class="info-icon">💱</span><div><span class="info-lbl">Currency</span><span class="info-val">${d.currency}</span></div></div>
+          <div class="info-row"><span class="info-icon">💬</span><div><span class="info-lbl">Language</span><span class="info-val">${d.language}</span></div></div>
+          <div class="info-row"><span class="info-icon">🛂</span><div><span class="info-lbl">Visa</span><span class="info-val">${d.visa}</span></div></div>
+          <div class="info-row"><span class="info-icon">🌡️</span><div><span class="info-lbl">Climate</span><span class="info-val">${d.climate}</span></div></div>
+        </div>
+        <div class="sb-card">
+          <h3>Top Highlights</h3>
+          <div class="hl-wrap">${d.highlights.map(h=>`<span class="hl-tag">${h}</span>`).join('')}</div>
+        </div>
+        <div class="sb-card">
+          <h3>Insider Tips</h3>
+          <ul class="tips-list">${d.tips.map(t=>`<li>${t}</li>`).join('')}</ul>
+        </div>
+        <div class="ad-unit rect" style="margin-top:.5rem">
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="5555555555" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script>
+        </div>
+      </div>
+    </div>`;
+  showPage('destination');
+}
+
+// ─── Render: All Blog Posts ───────────────────────────────
+function renderAllPosts(filter='all'){
+  const g=$('#all-blog');if(!g)return;
+  const list=filter==='all'?POSTS:POSTS.filter(p=>p.tag===filter);
+  const visible=list.slice(0,postsVisible);
+  g.innerHTML=visible.map(p=>`
+    <div class="bc reveal" onclick="loadPost('${p.id}')">
+      <div class="bc-imgw"><img class="bc-img" src="${p.thumb}" alt="${p.title}" loading="lazy"></div>
+      <div class="bc-body">
+        <span class="bc-cat">${p.cat}</span>
+        <h3 class="bc-title">${p.title}</h3>
+        <p class="bc-exc">${p.exc}</p>
+        <div class="bc-meta">
+          <div class="bc-auth"><img class="bc-av" src="${p.aimg}" alt="${p.author}"><span>${p.author}</span></div>
+          <span>🕐 ${p.read}</span>
+        </div>
+      </div>
+    </div>`).join('');
+  const lmBtn=$('.load-more');
+  if(lmBtn)lmBtn.style.display=visible.length<list.length?'block':'none';
+  initReveal();
+}
+
+function filterPosts(t,btn){
+  if(btn){$$('.filter-bar .fbtn').forEach(b=>b.classList.remove('act'));btn.classList.add('act')}
+  postsVisible=4;renderAllPosts(t);
+}
+
+function loadMore(){postsVisible+=4;renderAllPosts();}
+
+// ─── Load: Blog Post Detail ───────────────────────────────
+function loadPost(id){
+  const p=POSTS.find(x=>x.id===id);if(!p)return;
+  const related=POSTS.filter(x=>x.id!==id).slice(0,3);
+  $('#post-content').innerHTML=`
+    <div class="ph">
+      <div class="ph-bg" style="background-image:url('${p.hero}')"></div>
+      <div class="ph-cnt">
+        <div class="breadcrumb">
+          <span onclick="showPage('home')">Home</span><span class="breadcrumb-sep">›</span>
+          <span onclick="showPage('blog')">Blog</span><span class="breadcrumb-sep">›</span>
+          <span>${p.cat}</span>
+        </div>
+        <h1 class="ph-title" style="max-width:720px;font-size:clamp(1.8rem,4vw,3rem)">${p.title}</h1>
+      </div>
+    </div>
+    <div class="post-body">
+      <div class="post-cnt">
+        <div class="post-meta-bar">
+          <span>✍️ <strong>${p.author}</strong></span>
+          <span>📅 ${p.date}</span>
+          <span>🕐 ${p.read} read</span>
+          <span>📌 ${p.cat}</span>
+        </div>
+        <div class="tag-list">${p.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+        ${p.content}
+        <div class="ad-wrap" style="padding:0;margin:2.5rem 0">
+          <div class="ad-unit">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="6666666666" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="sb-card" style="margin-bottom:1.5rem">
+          <h3 style="font-family:var(--font-d);font-size:1.2rem;color:var(--dark);margin-bottom:1.1rem;padding-bottom:.7rem;border-bottom:1px solid var(--cream-2)">About the Author</h3>
+          <div style="display:flex;gap:12px;align-items:center;margin-bottom:1rem">
+            <img src="${p.aimg}" alt="${p.author}" style="width:52px;height:52px;border-radius:50%;object-fit:cover;border:3px solid var(--gold)">
+            <div><strong style="color:var(--dark);font-size:.95rem">${p.author}</strong><br><span style="font-size:.78rem;color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:.08em">Travel Writer</span></div>
+          </div>
+          <p style="font-size:.88rem;color:var(--text-lt);line-height:1.65">An experienced travel writer and photographer who has explored destinations across six continents.</p>
+        </div>
+        <div class="sb-card">
+          <h3 style="font-family:var(--font-d);font-size:1.2rem;color:var(--dark);margin-bottom:1.1rem;padding-bottom:.7rem;border-bottom:1px solid var(--cream-2)">Related Destinations</h3>
+          ${DESTS.slice(0,4).map(d=>`
+          <div style="display:flex;gap:12px;align-items:center;padding:.65rem 0;border-bottom:1px solid var(--cream-2);cursor:pointer" onclick="loadDest('${d.id}')">
+            <img src="${d.thumb}" alt="${d.name}" style="width:48px;height:48px;border-radius:8px;object-fit:cover;flex-shrink:0">
+            <div><strong style="font-size:.88rem;color:var(--dark)">${d.flag} ${d.name}</strong><br><span style="font-size:.75rem;color:var(--text-lt)">${d.tagline}</span></div>
+          </div>`).join('')}
+        </div>
+        <div class="ad-unit rect" style="margin-top:.5rem">
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="7777777777" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle=window.adsbygoogle||[]).push({});<\/script>
+        </div>
+      </div>
+    </div>
+    <div style="background:var(--cream-2);padding:4rem 5%">
+      <div class="lbl">Read Next</div>
+      <h2 class="sec-title" style="margin-bottom:2rem">More From Our Writers</h2>
+      <div class="blog-grid">
+        ${related.map(r=>`
+        <div class="bc" onclick="loadPost('${r.id}');window.scrollTo({top:0,behavior:'smooth'})">
+          <div class="bc-imgw"><img class="bc-img" src="${r.thumb}" alt="${r.title}" loading="lazy"></div>
+          <div class="bc-body">
+            <span class="bc-cat">${r.cat}</span>
+            <h3 class="bc-title">${r.title}</h3>
+            <div class="bc-meta">
+              <div class="bc-auth"><img class="bc-av" src="${r.aimg}" alt="${r.author}"><span>${r.author}</span></div>
+              <span>🕐 ${r.read}</span>
+            </div>
+          </div>
+        </div>`).join('')}
+      </div>
+    </div>`;
+  showPage('post');
+}
+
+// ─── Marquee ──────────────────────────────────────────────
+function initMarquee(){
+  const items=DESTS.map(d=>`<span class="mq-item">${d.flag} ${d.name.toUpperCase()}<span class="mq-dot">●</span></span>`).join('');
+  const t=$('#mq');if(!t)return;
+  t.innerHTML=items+items; // duplicate for seamless loop
+}
+
+// ─── Stats Counter ────────────────────────────────────────
+function animateCounters(){
+  $$('.stat-num[data-target]').forEach(el=>{
+    const target=parseInt(el.dataset.target);
+    const dur=1800;const step=dur/60;let current=0;
+    const inc=target/60;
+    const timer=setInterval(()=>{
+      current=Math.min(current+inc,target);
+      el.textContent=target>=10000?Math.floor(current).toLocaleString():Math.floor(current)+'';
+      if(current>=target){el.textContent=target>=10000?target.toLocaleString():target+'';clearInterval(timer)}
+    },step);
+  });
+}
+
+// ─── Scroll Reveal (Intersection Observer) ────────────────
+function initReveal(){
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target)}})
+  },{threshold:.12});
+  $$('.reveal').forEach(el=>obs.observe(el));
+}
+
+// ─── Nav Scroll Behavior ──────────────────────────────────
+let statsAnimated=false;
+window.addEventListener('scroll',()=>{
+  const y=window.scrollY;
+  // Progress bar
+  const prog=document.documentElement;
+  const pct=(y/(prog.scrollHeight-prog.clientHeight))*100;
+  $('#progress').style.width=pct+'%';
+  // Nav
+  const nav=$('#nav');
+  if(y>60){nav.classList.add('scrolled');nav.style.background=''}
+  else{nav.classList.remove('scrolled');if($('#p-home').classList.contains('hidden'))nav.style.background='rgba(11,25,41,.97)';else nav.style.background='transparent'}
+  // Back to top
+  const btt=$('#btt');
+  if(y>400)btt.classList.add('show');else btt.classList.remove('show');
+  // Stats counter trigger
+  if(!statsAnimated&&y>200){animateCounters();statsAnimated=true}
+});
+
+// ─── Mobile Menu ──────────────────────────────────────────
+function toggleMob(){
+  const b=$('#burger'),m=$('#mobmenu');
+  b.classList.toggle('open');m.classList.toggle('open');
+  document.body.style.overflow=m.classList.contains('open')?'hidden':'';
+}
+
+// ─── Newsletter Form ──────────────────────────────────────
+function submitNL(e){
+  e.preventDefault();
+  const input=e.target.querySelector('input');
+  const btn=e.target.querySelector('button');
+  btn.textContent='✓ Subscribed!';btn.style.background='var(--green)';
+  input.value='';
+  setTimeout(()=>{btn.textContent='Subscribe Free';btn.style.background=''},3000);
+}
+
+// ─── Contact Form ─────────────────────────────────────────
+function submitContact(e){
+  e.preventDefault();
+  const btn=e.target.querySelector('button[type="submit"]');
+  btn.textContent='✓ Message Sent!';btn.style.background='var(--green)';
+  setTimeout(()=>{btn.textContent='Send Message ↗';btn.style.background='var(--gold)';e.target.reset()},3000);
+}
+
+// ─── Cookie Banner ────────────────────────────────────────
+function showCookieBanner(){if(!localStorage.getItem('cookies_accepted')){setTimeout(()=>$('#cookie').classList.add('show'),1500)}}
+function acceptCookie(){localStorage.setItem('cookies_accepted','1');$('#cookie').classList.remove('show')}
+function hideCookie(){$('#cookie').classList.remove('show')}
+
+// ─── Lightbox ─────────────────────────────────────────────
+function openLB(src){$('#lb-img').src=src;$('#lightbox').classList.add('open');document.body.style.overflow='hidden'}
+function closeLB(){$('#lightbox').classList.remove('open');document.body.style.overflow=''}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLB()});
+
+// ─── INIT ─────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded',()=>{
+  renderHomeDests();
+  renderHomeBlog();
+  initMarquee();
+  initReveal();
+  showCookieBanner();
+  // Hero parallax subtle zoom
+  const heroBg=$('.hero-bg');
+  if(heroBg)setTimeout(()=>heroBg.style.transform='scale(1)',100);
+});
+</script>
+</body>
+</html>
